@@ -1,0 +1,18 @@
+package com.ibm.pumpsoft.ejb;
+
+import javax.ejb.Stateless;
+
+/**
+ * Session Bean implementation class SessionBean
+ */
+@Stateless
+public class SessionBean implements SessionBeanLocal {
+
+    /**
+     * Default constructor. 
+     */
+    public SessionBean() {
+        // TODO Auto-generated constructor stub
+    }
+
+}

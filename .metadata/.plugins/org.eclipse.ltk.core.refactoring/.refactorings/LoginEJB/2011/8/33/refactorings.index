@@ -1,0 +1,7 @@
+1313252701591	Bean 클래스 class LoginBean [in [Working copy] LoginBean.java [in com.ibm.pumpsoft [in ejbModule [in LoginEJB]]]]
+  javax.sql.DataSource ds
+  LoginBean()
+  int login(String, String)의 메소드를 비즈니스 인터페이스 interface LoginBeanLocal [in [Working copy] LoginBeanLocal.java [in com.ibm.pumpsoft [in ejbModule [in LoginEJB]]]](으)로 승격합니다.
+1313252736299	'com.ibm.pumpsoft' 패키지의 이름을 바꿉니다.
+1313252825404	'com.ibm.pumpsoftejb' 패키지의 이름을 바꿉니다.
+1313252944251	'com.ibm.pumpsoftlogin' 패키지의 이름을 바꿉니다.

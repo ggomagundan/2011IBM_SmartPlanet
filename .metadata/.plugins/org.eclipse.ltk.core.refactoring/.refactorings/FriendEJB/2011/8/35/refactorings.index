@@ -1,0 +1,14 @@
+1313926742949	Bean 클래스 class FriendBean [in [Working copy] FriendBean.java [in com.ibm.pumpsoft [in ejbModule [in FriendEJB]]]]
+  javax.sql.DataSource ds
+  FriendBean()
+  int getCountFriends(String)
+  String getSQL(String, int, int)
+  ArrayList<String> getFriendsList(String, int, int)
+  int isFriend(String, String)
+  String getUserInfo(String)
+  int insertFriend(String, String)의 메소드를 비즈니스 인터페이스 interface FriendBeanLocal [in FriendBeanLocal.java [in com.ibm.pumpsoft [in ejbModule [in FriendEJB]]]]
+  int getCountFriends(String)
+  ArrayList<String> getFriendsList(String, int, int)
+  String getSQL(String, int, int)
+  int isFriend(String, String)
+  String getUserInfo(String)(으)로 승격합니다.

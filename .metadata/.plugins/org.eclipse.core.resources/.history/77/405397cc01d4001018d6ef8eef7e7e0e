@@ -1,0 +1,20 @@
+package com.ibm.pumpsoft;
+
+import javax.ejb.LocalBean;
+import javax.ejb.Stateless;
+
+/**
+ * Session Bean implementation class ImageBean
+ */
+@Stateless
+@LocalBean
+public class ImageBean implements ImageBeanLocal {
+
+    /**
+     * Default constructor. 
+     */
+    public ImageBean() {
+        // TODO Auto-generated constructor stub
+    }
+
+}

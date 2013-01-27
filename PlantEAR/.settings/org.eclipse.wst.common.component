@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="PlantEAR">
+        <wb-resource deploy-path="/" source-path="/"/>
+        <dependent-module archiveName="PlantWeb.war" deploy-path="/" handle="module:/resource/PlantWeb/PlantWeb">
+            <dependent-object>Module_1313558712760</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="PlantEJB.jar" deploy-path="/" handle="module:/resource/PlantEJB/PlantEJB">
+            <dependent-object>Module_1313558731804</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

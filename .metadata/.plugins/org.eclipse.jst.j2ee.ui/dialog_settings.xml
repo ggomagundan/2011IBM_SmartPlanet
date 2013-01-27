@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="ImageEAR" key="LASTEARNAME_"/>
+	<item value="true" key="J2EE_EXPORT_OVERWRITE"/>
+	<item value="true" key="J2EE_EXPORT_SOURCE"/>
+	<list key="MRU_RUNTIME_STORE">
+		<item value="was.base.v8"/>
+	</list>
+	<list key="J2EE_EXPORT_JST_WEB">
+		<item value="D:\IBMProject\WAS\Project\WarFiles\SampleWeb.war"/>
+		<item value="D:\IBMProject\WAS\Project\WarFiles\SampleWeb2.war"/>
+		<item value="D:\IBMProject\WAS\Project\WarFiles\SampleWeb12.war"/>
+		<item value="D:\IBMProject\WAS\Project\SampleWeb\SampleWeb.war"/>
+	</list>
+	<list key="J2EE_EXPORT_JST_EAR">
+		<item value="D:\IBMProject\WAS\Project\WarFiles\ArticleEAR.ear"/>
+		<item value="D:\IBMProject\WAS\Project\WarFiles\MissionEAR.ear"/>
+		<item value="D:\IBMProject\WAS\Project\WarFiles\ImageEAR.ear"/>
+		<item value="D:\IBMProject\WAS\Project\WarFiles\ItemEAR.ear"/>
+		<item value="D:\IBMProject\WAS\Project\WarFiles\PlantEAR.ear"/>
+	</list>
+</section>

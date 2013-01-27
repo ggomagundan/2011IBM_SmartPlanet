@@ -1,0 +1,13 @@
+1311505832799	Bean 클래스 class SessionBean [in [Working copy] SessionBean.java [in com.ibm.pumpsoft.ejb [in ejbModule [in SampleEJB]]]]
+  SessionBean()
+  String getText()의 메소드를 비즈니스 인터페이스 interface SessionBeanLocal [in SessionBeanLocal.java [in com.ibm.pumpsoft.ejb [in ejbModule [in SampleEJB]]]](으)로 승격합니다.
+1311744874840	Bean 클래스 class SessionBean [in [Working copy] SessionBean.java [in com.ibm.pumpsoft [in ejbModule [in SampleEJB]]]]
+  SessionBean()
+  String getString()의 메소드를 비즈니스 인터페이스 interface SessionBeanLocal [in SessionBeanLocal.java [in com.ibm.pumpsoft [in ejbModule [in SampleEJB]]]](으)로 승격합니다.
+1311745282321	'com.ibm.pumpsoft' 패키지의 이름을 바꿉니다.
+1311746056327	Bean 클래스 class SessionBean [in [Working copy] SessionBean.java [in com.ibm.pumpsoftejb [in ejbModule [in SampleEJB]]]]
+  javax.sql.DataSource ds
+  SessionBean()
+  String getString()
+  String readDB()의 메소드를 비즈니스 인터페이스 interface SessionBeanLocal [in [Working copy] SessionBeanLocal.java [in com.ibm.pumpsoftejb [in ejbModule [in SampleEJB]]]]
+  String getString()(으)로 승격합니다.

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+	<display-name>ItemWeb</display-name>
+	
+	<servlet>
+        <servlet-name>InventoryGet</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.InventoryGet</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>InventoryGet</servlet-name>
+		<url-pattern>
+			/InventoryGet
+		</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>ItemCount</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.ItemCount</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>ItemCount</servlet-name>
+		<url-pattern>
+			/ItemCount
+		</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>ItemList</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.ItemList</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>ItemList</servlet-name>
+		<url-pattern>
+			/ItemList
+		</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>LatelyItem</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.LatelyItem</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>LatelyItem</servlet-name>
+		<url-pattern>
+			/LatelyItem
+		</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>UserItemCount</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.UserItemCount</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>UserItemCount</servlet-name>
+		<url-pattern>
+			/UserItemCount
+		</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+        <servlet-name>InsertItem</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.InsertItem</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>InsertItem</servlet-name>
+		<url-pattern>
+			/InsertItem
+		</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>InsertItemUser</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.InsertItemUser</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>InsertItemUser</servlet-name>
+		<url-pattern>
+			/InsertItemUser
+		</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+        <servlet-name>BuyItem</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.BuyItem</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>BuyItem</servlet-name>
+		<url-pattern>
+			/BuyItem
+		</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>UseItem</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.UseItem</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>UseItem</servlet-name>
+		<url-pattern>
+			/UseItem
+		</url-pattern>
+	</servlet-mapping>
+	
+	
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

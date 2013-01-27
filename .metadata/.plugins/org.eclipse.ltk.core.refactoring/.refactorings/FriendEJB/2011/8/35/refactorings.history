@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring description="Bean 클래스 class FriendBean [in [Working copy] FriendBean.java [in com.ibm.pumpsoft [in ejbModule [in FriendEJB]]]]&#x0A;  javax.sql.DataSource ds&#x0A;  FriendBean()&#x0A;  int getCountFriends(String)&#x0A;  String getSQL(String, int, int)&#x0A;  ArrayList&lt;String&gt; getFriendsList(String, int, int)&#x0A;  int isFriend(String, String)&#x0A;  String getUserInfo(String)&#x0A;  int insertFriend(String, String)의 메소드를 비즈니스 인터페이스 interface FriendBeanLocal [in FriendBeanLocal.java [in com.ibm.pumpsoft [in ejbModule [in FriendEJB]]]]&#x0A;  int getCountFriends(String)&#x0A;  ArrayList&lt;String&gt; getFriendsList(String, int, int)&#x0A;  String getSQL(String, int, int)&#x0A;  int isFriend(String, String)&#x0A;  String getUserInfo(String)(으)로 승격합니다." flags="6" id="com.ibm.jee.ejb.refactoring.core.PromoteMethods" stamp="1313926742949"/>
+</session>

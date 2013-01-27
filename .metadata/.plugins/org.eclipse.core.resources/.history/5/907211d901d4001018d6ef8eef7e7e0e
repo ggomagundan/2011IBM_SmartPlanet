@@ -1,0 +1,32 @@
+package com.ibm.pumpsoft;
+
+import javax.annotation.Resource;
+import javax.ejb.LocalBean;
+import javax.ejb.Stateless;
+
+/**
+ * Session Bean implementation class ImageBean
+ */
+@Stateless
+@LocalBean
+public class ImageBean implements ImageBeanLocal {
+
+    /**
+     * Default constructor. 
+     */
+	
+	@Resource(name="pump_Database",type=javax.sql.DataSource.class)
+	private javax.sql.DataSource ds;
+	
+    public ImageBean() {
+        // TODO Auto-generated constructor stub
+    }
+    
+    public int UploadImg(){
+    	
+    	 blobFileUse(db.con);
+    	
+    }
+    
+
+}

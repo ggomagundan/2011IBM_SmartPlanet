@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+	<display-name>MissionWeb</display-name>
+	
+	<servlet>
+        <servlet-name>HadMission</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.HadMission</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>HadMission</servlet-name>
+		<url-pattern>
+			/HadMission
+		</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>HadMissionCount</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.HadMissionCount</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>HadMissionCount</servlet-name>
+		<url-pattern>
+			/HadMissionCount
+		</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>HavingMission</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.HavingMission</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>HavingMission</servlet-name>
+		<url-pattern>
+			/HavingMission
+		</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>HavingMissionCount</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.HavingMissionCount</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>HavingMissionCount</servlet-name>
+		<url-pattern>
+			/HavingMissionCount
+		</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>MissionContent</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.MissionContent</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>MissionContent</servlet-name>
+		<url-pattern>
+			/MissionContent
+		</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+        <servlet-name>MissionCount</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.MissionCount</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>MissionCount</servlet-name>
+		<url-pattern>
+			/MissionCount
+		</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>MissionList</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.MissionList</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>MissionList</servlet-name>
+		<url-pattern>
+			/MissionList
+		</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+        <servlet-name>MissionType</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.MissionType</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>MissionType</servlet-name>
+		<url-pattern>
+			/MissionType
+		</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>UserMission</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.UserMission</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>UserMission</servlet-name>
+		<url-pattern>
+			/UserMission
+		</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>UserMissionCount</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.UserMissionCount</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>UserMissionCount</servlet-name>
+		<url-pattern>
+			/UserMissionCount
+		</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>HavingUserMissionS</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.HavingUserMissionS</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>HavingUserMissionS</servlet-name>
+		<url-pattern>
+			/HavingUserMissionS
+		</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+        <servlet-name>InsertMission</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.InsertMission</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>InsertMission</servlet-name>
+		<url-pattern>
+			/InsertMission
+		</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>InsertMissionInstance</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.InsertMissionInstance</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>InsertMissionInstance</servlet-name>
+		<url-pattern>
+			/InsertMissionInstance
+		</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+        <servlet-name>InsertMissionUser</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.InsertMissionUser</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>InsertMissionUser</servlet-name>
+		<url-pattern>
+			/InsertMissionUser
+		</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+        <servlet-name>UpdateMissionAP</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.UpdateMissionAP</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>UpdateMissionAP</servlet-name>
+		<url-pattern>
+			/UpdateMissionAP
+		</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+        <servlet-name>UpdateMissionET</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.UpdateMissionET</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>UpdateMissionET</servlet-name>
+		<url-pattern>
+			/UpdateMissionET
+		</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+        <servlet-name>UpdateMissionET</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.UpdateMissionET</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>UpdateMissionET</servlet-name>
+		<url-pattern>
+			/UpdateMissionET
+		</url-pattern>
+	</servlet-mapping>
+	
+	
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

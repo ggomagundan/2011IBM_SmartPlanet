@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="com.ibm.etools.j2ee.ui.EARWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1311501544323_0" label="EAR 프로젝트" name="EAR 프로젝트">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/SampleEAR" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/MissionEAR" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ItemEAR" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/PlantEAR" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FriendEAR" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ArticleEAR" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/LoginEAR" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ImageEAR" type="4"/>
+</workingSet>
+<workingSet editPageId="com.ibm.etools.j2ee.ui.AppClientWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1311501544408_1" label="애플리케이션 클라이언트 프로젝트" name="애플리케이션 클라이언트 프로젝트"/>
+<workingSet editPageId="com.ibm.etools.j2ee.ui.EjbWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1311501544422_2" label="EJB 프로젝트" name="EJB 프로젝트">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/MissionEJB" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/PlantEJB" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ItemEJB" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/LoginEJB" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/SampleEJB" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FriendEJB" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ArticleEJB" type="4"/>
+</workingSet>
+<workingSet editPageId="com.ibm.etools.j2ee.ui.ConnectorWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1311501544434_3" label="커넥터 프로젝트" name="커넥터 프로젝트"/>
+<workingSet editPageId="com.ibm.etools.j2ee.ui.WebWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1311501544444_4" label="동적 웹 프로젝트" name="동적 웹 프로젝트">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ItemWeb" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ArticleWeb" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/PlantWeb" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/LoginWeb" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FrinedWeb" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ImageWeb" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/SampleWeb" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/MissionWeb" type="4"/>
+</workingSet>
+<workingSet editPageId="com.ibm.etools.j2ee.ui.JPAWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1311501544453_5" label="JPA 프로젝트" name="JPA 프로젝트"/>
+<workingSet editPageId="com.ibm.etools.j2ee.ui.UtilWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1311501544462_6" label="유틸리티 프로젝트" name="유틸리티 프로젝트"/>
+<workingSet editPageId="com.ibm.etools.j2ee.ui.StaticWebProjects" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1311501544472_7" label="정적 웹 프로젝트" name="정적 웹 프로젝트"/>
+<workingSet editPageId="com.ibm.etools.j2ee.ui.WebFragmentWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1311501544482_8" label="웹 단편 프로젝트" name="웹 단편 프로젝트"/>
+<workingSet editPageId="com.ibm.etools.project.OthersWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1311501544493_9" label="카테고리화되지 않은 프로젝트" name="카테고리화되지 않은 프로젝트"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1311501544765_10" label="다중 작업 세트" name="Aggregate:EAR 프로젝트:애플리케이션 클라이언트 프로젝트:EJB 프로젝트:커넥터 프로젝트:동적 웹 프로젝트:JPA 프로젝트:유틸리티 프로젝트:정적 웹 프로젝트:웹 단편 프로젝트:카테고리화되지 않은 프로젝트:">
+<workingSet IMemento.internal.id="EAR 프로젝트"/>
+<workingSet IMemento.internal.id="애플리케이션 클라이언트 프로젝트"/>
+<workingSet IMemento.internal.id="EJB 프로젝트"/>
+<workingSet IMemento.internal.id="커넥터 프로젝트"/>
+<workingSet IMemento.internal.id="동적 웹 프로젝트"/>
+<workingSet IMemento.internal.id="JPA 프로젝트"/>
+<workingSet IMemento.internal.id="유틸리티 프로젝트"/>
+<workingSet IMemento.internal.id="정적 웹 프로젝트"/>
+<workingSet IMemento.internal.id="웹 단편 프로젝트"/>
+<workingSet IMemento.internal.id="카테고리화되지 않은 프로젝트"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1311501545446_11" label="창 작업 세트" name="Aggregate for window 1311501545446"/>
+</workingSetManager>

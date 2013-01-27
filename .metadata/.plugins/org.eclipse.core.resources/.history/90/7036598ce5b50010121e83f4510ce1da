@@ -1,0 +1,7 @@
+package com.ibm.pumpsoft.ejb;
+import javax.ejb.Local;
+
+@Local
+public interface SessionBeanLocal {
+
+}

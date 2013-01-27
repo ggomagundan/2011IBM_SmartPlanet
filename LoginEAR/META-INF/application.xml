@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application id="Application_ID" version="6" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_6.xsd">
+ <display-name>LoginEAR</display-name>
+ <module id="Module_1313252210504">
+ 	<web>
+ 		<web-uri>LoginWeb.war</web-uri>
+ 		<context-root>LoginWeb</context-root>
+ 	</web>
+ </module>
+ <module id="Module_1313252239676">
+ 	<ejb>LoginEJB.jar</ejb>
+ </module> 
+ </application> 

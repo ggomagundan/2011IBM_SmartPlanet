@@ -1,0 +1,1828 @@
+!SESSION 2011-08-17 14:12:32.771 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows 7 x86-32 jvmwi3260sr9-20110324_78506 (JIT enabled, AOT enabled)
+J9VM - 20110324_078506
+JIT  - r9_20101028_17488ifx3
+GC   - 20101027_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ko_KR
+Framework arguments:  -product com.ibm.rational.rad.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rad.product.v80.ide
+
+This is a continuation of log file D:\IBMProject\WAS\Project\.metadata\.bak_2.log
+Created Time: 2011-08-17 15:57:23.193
+
+!ENTRY org.eclipse.text 4 2 2011-08-17 15:57:23.193
+!MESSAGE 플러그인 "org.eclipse.text"에서 코드 호출하는 중에 문제점이 발생했습니다.
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.rational.llc.internal.ui.editor.CoverageAnnotationSynchronizer$CoverageAnnotationListener.documentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.projection.ProjectionTextStore.replace(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.projection.ProjectionDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.replaceTextRange(Unknown Source)
+	at org.eclipse.swt.custom.StyledText.modifyContent(Unknown Source)
+	at org.eclipse.swt.custom.StyledText.sendKeyEvent(Unknown Source)
+	at org.eclipse.swt.custom.StyledText.doContent(Unknown Source)
+	at org.eclipse.swt.custom.StyledText.handleKey(Unknown Source)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(Unknown Source)
+	at org.eclipse.swt.custom.StyledText$7.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.wmChar(Unknown Source)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+
+!ENTRY org.eclipse.text 4 2 2011-08-17 15:57:23.329
+!MESSAGE 플러그인 "org.eclipse.text"에서 코드 호출하는 중에 문제점이 발생했습니다.
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.rational.llc.internal.ui.editor.CoverageAnnotationSynchronizer$CoverageAnnotationListener.documentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.projection.ProjectionTextStore.replace(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.projection.ProjectionDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.replaceTextRange(Unknown Source)
+	at org.eclipse.swt.custom.StyledText.modifyContent(Unknown Source)
+	at org.eclipse.swt.custom.StyledText.sendKeyEvent(Unknown Source)
+	at org.eclipse.swt.custom.StyledText.doContent(Unknown Source)
+	at org.eclipse.swt.custom.StyledText.handleKey(Unknown Source)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(Unknown Source)
+	at org.eclipse.swt.custom.StyledText$7.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.wmChar(Unknown Source)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+
+!ENTRY org.eclipse.text 4 2 2011-08-17 15:57:24.129
+!MESSAGE 플러그인 "org.eclipse.text"에서 코드 호출하는 중에 문제점이 발생했습니다.
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.rational.llc.internal.ui.editor.CoverageAnnotationSynchronizer$CoverageAnnotationListener.documentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.projection.ProjectionTextStore.replace(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.projection.ProjectionDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.replaceTextRange(Unknown Source)
+	at org.eclipse.swt.custom.StyledText.modifyContent(Unknown Source)
+	at org.eclipse.swt.custom.StyledText.sendKeyEvent(Unknown Source)
+	at org.eclipse.swt.custom.StyledText.doContent(Unknown Source)
+	at org.eclipse.swt.custom.StyledText.handleKey(Unknown Source)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(Unknown Source)
+	at org.eclipse.swt.custom.StyledText$7.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.wmChar(Unknown Source)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+
+!ENTRY org.eclipse.text 4 2 2011-08-17 15:57:24.522
+!MESSAGE 플러그인 "org.eclipse.text"에서 코드 호출하는 중에 문제점이 발생했습니다.
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.rational.llc.internal.ui.editor.CoverageAnnotationSynchronizer$CoverageAnnotationListener.documentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.replace(Unknown Source)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.replace(Unknown Source)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.apply(Unknown Source)
+	at org.eclipse.jdt.internal.ui.text.java.JavaMethodCompletionProposal.apply(Unknown Source)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.apply(Unknown Source)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertProposal(Unknown Source)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertSelectedProposalWithMask(Unknown Source)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.verifyKey(Unknown Source)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$InternalListener.verifyKey(Unknown Source)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(Unknown Source)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Unknown Source)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(Unknown Source)
+	at org.eclipse.swt.custom.StyledText$7.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.wmChar(Unknown Source)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+
+!ENTRY org.eclipse.text 4 2 2011-08-17 15:57:24.777
+!MESSAGE 플러그인 "org.eclipse.text"에서 코드 호출하는 중에 문제점이 발생했습니다.
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.rational.llc.internal.ui.editor.CoverageAnnotationSynchronizer$CoverageAnnotationListener.documentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.projection.ProjectionTextStore.replace(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.projection.ProjectionDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.replaceTextRange(Unknown Source)
+	at org.eclipse.swt.custom.StyledText.modifyContent(Unknown Source)
+	at org.eclipse.swt.custom.StyledText.sendKeyEvent(Unknown Source)
+	at org.eclipse.swt.custom.StyledText.doContent(Unknown Source)
+	at org.eclipse.swt.custom.StyledText.handleKey(Unknown Source)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(Unknown Source)
+	at org.eclipse.swt.custom.StyledText$7.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.wmChar(Unknown Source)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+
+!ENTRY org.eclipse.text 4 2 2011-08-17 15:57:28.026
+!MESSAGE 플러그인 "org.eclipse.text"에서 코드 호출하는 중에 문제점이 발생했습니다.
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.rational.llc.internal.ui.editor.CoverageAnnotationSynchronizer$CoverageAnnotationListener.documentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.replace(Unknown Source)
+	at org.eclipse.text.edits.InsertEdit.performDocumentUpdating(Unknown Source)
+	at org.eclipse.text.edits.TextEdit.traverseDocumentUpdating(Unknown Source)
+	at org.eclipse.text.edits.TextEdit.traverseDocumentUpdating(Unknown Source)
+	at org.eclipse.text.edits.TextEditProcessor.executeDo(Unknown Source)
+	at org.eclipse.text.edits.TextEdit.dispatchPerformEdits(Unknown Source)
+	at org.eclipse.text.edits.TextEditProcessor.performEdits(Unknown Source)
+	at org.eclipse.jface.text.RewriteSessionEditProcessor.performEdits(Unknown Source)
+	at org.eclipse.jdt.internal.ui.javaeditor.DocumentAdapter$ApplyTextEditCommand.run(Unknown Source)
+	at org.eclipse.jdt.internal.ui.javaeditor.DocumentAdapter.run(Unknown Source)
+	at org.eclipse.jdt.internal.ui.javaeditor.DocumentAdapter.access$1(Unknown Source)
+	at org.eclipse.jdt.internal.ui.javaeditor.DocumentAdapter$ApplyTextEditCommand.applyTextEdit(Unknown Source)
+	at org.eclipse.jdt.internal.ui.javaeditor.DocumentAdapter.applyTextEdit(Unknown Source)
+	at org.eclipse.jdt.internal.core.CompilationUnit.applyTextEdit(Unknown Source)
+	at org.eclipse.jdt.internal.corext.util.JavaModelUtil.applyEdit(Unknown Source)
+	at org.eclipse.jdt.internal.corext.codemanipulation.OrganizeImportsOperation.run(Unknown Source)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(Unknown Source)
+	at org.eclipse.core.internal.resources.Workspace.run(Unknown Source)
+	at org.eclipse.jdt.core.JavaCore.run(Unknown Source)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(Unknown Source)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(Unknown Source)
+	at org.eclipse.jface.operation.ModalContext.run(Unknown Source)
+	at org.eclipse.jface.window.ApplicationWindow$1.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(Unknown Source)
+	at org.eclipse.jface.window.ApplicationWindow.run(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(Unknown Source)
+	at org.eclipse.ui.internal.progress.ProgressManager$RunnableWithStatus.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(Unknown Source)
+	at org.eclipse.ui.internal.progress.ProgressManager$7.run(Unknown Source)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Unknown Source)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(Unknown Source)
+	at org.eclipse.swt.widgets.Display.syncExec(Unknown Source)
+	at org.eclipse.ui.internal.progress.ProgressManager.runInUI(Unknown Source)
+	at org.eclipse.jdt.ui.actions.OrganizeImportsAction.run(Unknown Source)
+	at org.eclipse.jdt.ui.actions.OrganizeImportsAction.run(Unknown Source)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(Unknown Source)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(Unknown Source)
+	at org.eclipse.jface.action.Action.runWithEvent(Unknown Source)
+	at org.eclipse.ui.commands.ActionHandler.execute(Unknown Source)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerWrapper.execute(Unknown Source)
+	at org.eclipse.core.commands.Command.executeWithChecks(Unknown Source)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(Unknown Source)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(Unknown Source)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.executeCommand(Unknown Source)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.press(Unknown Source)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.processKeyEvent(Unknown Source)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.filterKeySequenceBindings(Unknown Source)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.access$3(Unknown Source)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard$KeyDownFilter.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.filterEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.wmChar(Unknown Source)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+
+!ENTRY org.eclipse.core.jobs 4 2 2011-08-17 21:50:49.388
+!MESSAGE 다음 수행 중에 내부 오류 발생: "Java 어노테이션 모델 업데이트".
+!STACK 0
+java.lang.NullPointerException
+	at java.util.Hashtable.put(Unknown Source)
+	at com.ibm.etools.annotations.ui.internal.override.DDOverrideIndicatorHelper.setAAnnotatedModelList(Unknown Source)
+	at com.ibm.etools.annotations.ui.internal.override.DDOverrideAnnotationListener.propertyChange(Unknown Source)
+	at com.ibm.propertygroup.spi.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at com.ibm.propertygroup.spi.PropertyChangeSupport.firePropertyInValid(Unknown Source)
+	at com.ibm.etools.annotations.core.data.AnnotatedClassInfo$AnnotatedClassInfoUpdateJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Unknown Source)
+!SESSION 2011-08-18 13:50:41.796 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows 7 x86-32 jvmwi3260sr9-20110324_78506 (JIT enabled, AOT enabled)
+J9VM - 20110324_078506
+JIT  - r9_20101028_17488ifx3
+GC   - 20101027_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ko_KR
+Framework arguments:  -product com.ibm.rational.rad.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rad.product.v80.ide
+
+!ENTRY org.eclipse.ui 2 0 2011-08-18 13:50:48.456
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2011-08-18 13:50:48.456
+!MESSAGE Commands should really have a category: plug-in='com.ibm.ccl.soa.deploy.connections.ui', id='com.ibm.ccl.soa.deploy.connections.ui.new', categoryId='com.ibm.ccl.soa.deploy.core.ui.zephyr.commands'
+!SUBENTRY 1 org.eclipse.ui 2 0 2011-08-18 13:50:48.456
+!MESSAGE Commands should really have a category: plug-in='com.ibm.ccl.soa.deploy.connections.ui', id='com.ibm.ccl.soa.deploy.connections.ui.open', categoryId='com.ibm.ccl.soa.deploy.core.ui.zephyr.commands'
+!SESSION 2011-08-21 18:11:25.329 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows 7 x86-32 jvmwi3260sr9-20110324_78506 (JIT enabled, AOT enabled)
+J9VM - 20110324_078506
+JIT  - r9_20101028_17488ifx3
+GC   - 20101027_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ko_KR
+Framework arguments:  -product com.ibm.rational.rad.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rad.product.v80.ide
+
+!ENTRY org.eclipse.ui 2 0 2011-08-21 18:39:29.725
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2011-08-21 18:39:29.725
+!MESSAGE Commands should really have a category: plug-in='com.ibm.ccl.soa.deploy.connections.ui', id='com.ibm.ccl.soa.deploy.connections.ui.new', categoryId='com.ibm.ccl.soa.deploy.core.ui.zephyr.commands'
+!SUBENTRY 1 org.eclipse.ui 2 0 2011-08-21 18:39:29.725
+!MESSAGE Commands should really have a category: plug-in='com.ibm.ccl.soa.deploy.connections.ui', id='com.ibm.ccl.soa.deploy.connections.ui.open', categoryId='com.ibm.ccl.soa.deploy.core.ui.zephyr.commands'
+
+!ENTRY org.eclipse.wst.common.project.facet.core 2 0 2011-08-21 20:04:20.985
+!MESSAGE The ">", ">=", "<", and "<=" notation in version expressions has been deprecated. Note that the angle brackets are represented via "&lt;" and "&gt;" in the plugin.xml files. The functionality has been replaced with range notation. For instance "[X-Y)" means all versions greater or equals to X and less than Y. Open ranges such as "(X" or "Y]" are also allowed.
+
+Expression: >=3.0
+Project facet: EJB 모듈
+
+!ENTRY org.eclipse.text 4 2 2011-08-21 21:36:52.767
+!MESSAGE 플러그인 "org.eclipse.text"에서 코드 호출하는 중에 문제점이 발생했습니다.
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.rational.llc.internal.ui.editor.CoverageAnnotationSynchronizer$CoverageAnnotationListener.documentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.projection.ProjectionTextStore.replace(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.projection.ProjectionDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.replaceTextRange(Unknown Source)
+	at org.eclipse.swt.custom.StyledText.modifyContent(Unknown Source)
+	at org.eclipse.swt.custom.StyledText.sendKeyEvent(Unknown Source)
+	at org.eclipse.swt.custom.StyledText.doDelete(Unknown Source)
+	at org.eclipse.swt.custom.StyledText.invokeAction(Unknown Source)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.doOperation(Unknown Source)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doOperation(Unknown Source)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer.doOperation(Unknown Source)
+	at org.eclipse.ui.texteditor.TextOperationAction$1.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(Unknown Source)
+	at org.eclipse.ui.texteditor.TextOperationAction.run(Unknown Source)
+	at org.eclipse.jface.action.Action.runWithEvent(Unknown Source)
+	at org.eclipse.ui.commands.ActionHandler.execute(Unknown Source)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerWrapper.execute(Unknown Source)
+	at org.eclipse.core.commands.Command.executeWithChecks(Unknown Source)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(Unknown Source)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(Unknown Source)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.executeCommand(Unknown Source)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.press(Unknown Source)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.processKeyEvent(Unknown Source)
+	at org.eclipse.ui.internal.keys.OutOfOrderListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.wmKeyDown(Unknown Source)
+	at org.eclipse.swt.widgets.Control.WM_KEYDOWN(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+
+!ENTRY org.eclipse.text 4 2 2011-08-21 21:55:07.566
+!MESSAGE 플러그인 "org.eclipse.text"에서 코드 호출하는 중에 문제점이 발생했습니다.
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.rational.llc.internal.ui.editor.CoverageAnnotationSynchronizer$CoverageAnnotationListener.documentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.projection.ProjectionTextStore.replace(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.projection.ProjectionDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.replaceTextRange(Unknown Source)
+	at org.eclipse.swt.custom.StyledText.modifyContent(Unknown Source)
+	at org.eclipse.swt.custom.StyledText.sendKeyEvent(Unknown Source)
+	at org.eclipse.swt.custom.StyledText.doBackspace(Unknown Source)
+	at org.eclipse.swt.custom.StyledText.invokeAction(Unknown Source)
+	at org.eclipse.swt.custom.StyledText.handleKey(Unknown Source)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(Unknown Source)
+	at org.eclipse.swt.custom.StyledText$7.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.wmChar(Unknown Source)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+
+!ENTRY org.eclipse.text 4 2 2011-08-21 21:55:10.123
+!MESSAGE 플러그인 "org.eclipse.text"에서 코드 호출하는 중에 문제점이 발생했습니다.
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.rational.llc.internal.ui.editor.CoverageAnnotationSynchronizer$CoverageAnnotationListener.documentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.projection.ProjectionTextStore.replace(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.projection.ProjectionDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.replaceTextRange(Unknown Source)
+	at org.eclipse.swt.custom.StyledText.modifyContent(Unknown Source)
+	at org.eclipse.swt.custom.StyledText.sendKeyEvent(Unknown Source)
+	at org.eclipse.swt.custom.StyledText.doDelete(Unknown Source)
+	at org.eclipse.swt.custom.StyledText.invokeAction(Unknown Source)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.doOperation(Unknown Source)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doOperation(Unknown Source)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer.doOperation(Unknown Source)
+	at org.eclipse.ui.texteditor.TextOperationAction$1.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(Unknown Source)
+	at org.eclipse.ui.texteditor.TextOperationAction.run(Unknown Source)
+	at org.eclipse.jface.action.Action.runWithEvent(Unknown Source)
+	at org.eclipse.ui.commands.ActionHandler.execute(Unknown Source)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerWrapper.execute(Unknown Source)
+	at org.eclipse.core.commands.Command.executeWithChecks(Unknown Source)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(Unknown Source)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(Unknown Source)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.executeCommand(Unknown Source)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.press(Unknown Source)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.processKeyEvent(Unknown Source)
+	at org.eclipse.ui.internal.keys.OutOfOrderListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.wmKeyDown(Unknown Source)
+	at org.eclipse.swt.widgets.Control.WM_KEYDOWN(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+!SESSION 2011-08-23 04:45:30.006 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows 7 x86-32 jvmwi3260sr9-20110324_78506 (JIT enabled, AOT enabled)
+J9VM - 20110324_078506
+JIT  - r9_20101028_17488ifx3
+GC   - 20101027_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ko_KR
+Framework arguments:  -product com.ibm.rational.rad.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rad.product.v80.ide
+
+!ENTRY org.eclipse.ui 2 0 2011-08-23 04:45:49.598
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2011-08-23 04:45:49.599
+!MESSAGE Commands should really have a category: plug-in='com.ibm.ccl.soa.deploy.connections.ui', id='com.ibm.ccl.soa.deploy.connections.ui.new', categoryId='com.ibm.ccl.soa.deploy.core.ui.zephyr.commands'
+!SUBENTRY 1 org.eclipse.ui 2 0 2011-08-23 04:45:49.599
+!MESSAGE Commands should really have a category: plug-in='com.ibm.ccl.soa.deploy.connections.ui', id='com.ibm.ccl.soa.deploy.connections.ui.open', categoryId='com.ibm.ccl.soa.deploy.core.ui.zephyr.commands'
+
+!ENTRY org.eclipse.wst.common.project.facet.core 2 0 2011-08-23 04:50:23.379
+!MESSAGE The ">", ">=", "<", and "<=" notation in version expressions has been deprecated. Note that the angle brackets are represented via "&lt;" and "&gt;" in the plugin.xml files. The functionality has been replaced with range notation. For instance "[X-Y)" means all versions greater or equals to X and less than Y. Open ranges such as "(X" or "Y]" are also allowed.
+
+Expression: >=3.0
+Project facet: EJB 모듈
+
+!ENTRY org.eclipse.text 4 2 2011-08-23 06:34:53.684
+!MESSAGE 플러그인 "org.eclipse.text"에서 코드 호출하는 중에 문제점이 발생했습니다.
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.rational.llc.internal.ui.editor.CoverageAnnotationSynchronizer$CoverageAnnotationListener.documentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.replace(Unknown Source)
+	at org.eclipse.text.edits.InsertEdit.performDocumentUpdating(Unknown Source)
+	at org.eclipse.text.edits.TextEdit.traverseDocumentUpdating(Unknown Source)
+	at org.eclipse.text.edits.TextEdit.traverseDocumentUpdating(Unknown Source)
+	at org.eclipse.text.edits.TextEdit.traverseDocumentUpdating(Unknown Source)
+	at org.eclipse.text.edits.TextEditProcessor.executeDo(Unknown Source)
+	at org.eclipse.text.edits.TextEdit.dispatchPerformEdits(Unknown Source)
+	at org.eclipse.text.edits.TextEditProcessor.performEdits(Unknown Source)
+	at org.eclipse.ltk.core.refactoring.TextChange.performEdits(Unknown Source)
+	at org.eclipse.ltk.core.refactoring.TextFileChange.access$0(Unknown Source)
+	at org.eclipse.ltk.core.refactoring.TextFileChange$1.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(Unknown Source)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(Unknown Source)
+	at org.eclipse.jface.operation.ModalContext.run(Unknown Source)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.run(Unknown Source)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.internalPerformFinish(Unknown Source)
+	at org.eclipse.ltk.ui.refactoring.UserInputWizardPage.performFinish(Unknown Source)
+	at com.ibm.jee.ejb.refactoring.ui.internal.wizards.PromoteMethodsTargetPage.performFinish(Unknown Source)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.performFinish(Unknown Source)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.okPressed(Unknown Source)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Unknown Source)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.jface.window.Window.runEventLoop(Unknown Source)
+	at org.eclipse.jface.window.Window.open(Unknown Source)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation$1.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(Unknown Source)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(Unknown Source)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(Unknown Source)
+	at com.ibm.jee.ejb.refactoring.ui.internal.actions.PromoteMethodsAction.run(Unknown Source)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(Unknown Source)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(Unknown Source)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(Unknown Source)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+
+!ENTRY org.eclipse.text 4 2 2011-08-23 06:34:53.756
+!MESSAGE 플러그인 "org.eclipse.text"에서 코드 호출하는 중에 문제점이 발생했습니다.
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.rational.llc.internal.ui.editor.CoverageAnnotationSynchronizer$CoverageAnnotationListener.documentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.replace(Unknown Source)
+	at org.eclipse.text.edits.InsertEdit.performDocumentUpdating(Unknown Source)
+	at org.eclipse.text.edits.TextEdit.traverseDocumentUpdating(Unknown Source)
+	at org.eclipse.text.edits.TextEdit.traverseDocumentUpdating(Unknown Source)
+	at org.eclipse.text.edits.TextEdit.traverseDocumentUpdating(Unknown Source)
+	at org.eclipse.text.edits.TextEditProcessor.executeDo(Unknown Source)
+	at org.eclipse.text.edits.TextEdit.dispatchPerformEdits(Unknown Source)
+	at org.eclipse.text.edits.TextEditProcessor.performEdits(Unknown Source)
+	at org.eclipse.ltk.core.refactoring.TextChange.performEdits(Unknown Source)
+	at org.eclipse.ltk.core.refactoring.TextFileChange.access$0(Unknown Source)
+	at org.eclipse.ltk.core.refactoring.TextFileChange$1.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(Unknown Source)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(Unknown Source)
+	at org.eclipse.jface.operation.ModalContext.run(Unknown Source)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.run(Unknown Source)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.internalPerformFinish(Unknown Source)
+	at org.eclipse.ltk.ui.refactoring.UserInputWizardPage.performFinish(Unknown Source)
+	at com.ibm.jee.ejb.refactoring.ui.internal.wizards.PromoteMethodsTargetPage.performFinish(Unknown Source)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.performFinish(Unknown Source)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.okPressed(Unknown Source)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Unknown Source)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.jface.window.Window.runEventLoop(Unknown Source)
+	at org.eclipse.jface.window.Window.open(Unknown Source)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation$1.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(Unknown Source)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(Unknown Source)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(Unknown Source)
+	at com.ibm.jee.ejb.refactoring.ui.internal.actions.PromoteMethodsAction.run(Unknown Source)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(Unknown Source)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(Unknown Source)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(Unknown Source)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+!SESSION 2011-08-30 23:30:50.802 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows 7 x86-32 jvmwi3260sr9-20110324_78506 (JIT enabled, AOT enabled)
+J9VM - 20110324_078506
+JIT  - r9_20101028_17488ifx3
+GC   - 20101027_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ko_KR
+Framework arguments:  -product com.ibm.rational.rad.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rad.product.v80.ide
+
+!ENTRY org.eclipse.ui 2 0 2011-08-30 23:30:55.391
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2011-08-30 23:30:55.391
+!MESSAGE Commands should really have a category: plug-in='com.ibm.ccl.soa.deploy.connections.ui', id='com.ibm.ccl.soa.deploy.connections.ui.new', categoryId='com.ibm.ccl.soa.deploy.core.ui.zephyr.commands'
+!SUBENTRY 1 org.eclipse.ui 2 0 2011-08-30 23:30:55.391
+!MESSAGE Commands should really have a category: plug-in='com.ibm.ccl.soa.deploy.connections.ui', id='com.ibm.ccl.soa.deploy.connections.ui.open', categoryId='com.ibm.ccl.soa.deploy.core.ui.zephyr.commands'
+
+!ENTRY org.eclipse.core.jobs 4 2 2011-08-30 23:40:12.543
+!MESSAGE 다음 수행 중에 내부 오류 발생: "Java 어노테이션 모델 업데이트".
+!STACK 0
+java.util.ConcurrentModificationException
+	at org.eclipse.emf.ecore.util.FeatureMapUtil$BasicFeatureEIterator.checkModCount(Unknown Source)
+	at org.eclipse.emf.ecore.util.FeatureMapUtil$BasicFeatureEIterator.next(Unknown Source)
+	at com.ibm.etools.javaee.merge.MergeUtil.getAdapterFromRemovedObject(Unknown Source)
+	at com.ibm.etools.javaee.merge.MMAdapter.removeAndReplaceEObjectFromList(Unknown Source)
+	at com.ibm.etools.javaee.merge.MMAdapter.processRemoveEvents(Unknown Source)
+	at com.ibm.etools.javaee.merge.MMAdapter.notifyChanged(Unknown Source)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(Unknown Source)
+	at org.eclipse.emf.common.notify.impl.NotificationImpl.dispatch(Unknown Source)
+	at org.eclipse.emf.common.notify.impl.NotificationImpl.dispatch(Unknown Source)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.remove(Unknown Source)
+	at org.eclipse.emf.ecore.util.BasicFeatureMap.remove(Unknown Source)
+	at org.eclipse.emf.ecore.util.FeatureMapUtil$FeatureEList.remove(Unknown Source)
+	at org.eclipse.emf.ecore.util.EcoreUtil.remove(Unknown Source)
+	at org.eclipse.emf.ecore.util.EcoreUtil.delete(Unknown Source)
+	at com.ibm.etools.javaee.annotations.internal.utils.BaseModelUtils.cleanUpModel(Unknown Source)
+	at com.ibm.etools.javaee.annotations.base.EMF2AnnotationBaseAdapterImpl.cleanUpModel(Unknown Source)
+	at com.ibm.etools.javaee.annotations.base.EMF2AnnotationBaseAdapterImpl.propertyChange(Unknown Source)
+	at com.ibm.propertygroup.spi.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at com.ibm.propertygroup.spi.PropertyChangeSupport.firePropertyInValid(Unknown Source)
+	at com.ibm.etools.annotations.core.data.AnnotatedClassInfo$AnnotatedClassInfoUpdateJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Unknown Source)
+
+!ENTRY org.eclipse.ui.workbench 4 0 2011-08-30 23:47:04.825
+!MESSAGE assertion failed: Ignoring unexpected call to IWorkbenchSiteProgressService.decrementBusy().  This might be due to an earlier call to this method.
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: assertion failed: Ignoring unexpected call to IWorkbenchSiteProgressService.decrementBusy().  This might be due to an earlier call to this method.
+	at org.eclipse.core.runtime.Assert.isTrue(Unknown Source)
+	at org.eclipse.ui.internal.progress.WorkbenchSiteProgressService.decrementBusy(Unknown Source)
+	at org.eclipse.ui.internal.progress.WorkbenchSiteProgressService.decrementBusy(Unknown Source)
+	at org.eclipse.ui.internal.progress.ProgressManager$3.done(Unknown Source)
+	at org.eclipse.core.internal.jobs.JobListeners$3.notify(Unknown Source)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(Unknown Source)
+	at org.eclipse.core.internal.jobs.JobListeners.done(Unknown Source)
+	at org.eclipse.core.internal.jobs.JobManager.endJob(Unknown Source)
+	at org.eclipse.core.internal.jobs.InternalJob.done(Unknown Source)
+	at org.eclipse.core.runtime.jobs.Job.done(Unknown Source)
+	at com.ibm.etools.references.internal.ReferencesMonitoringJob.ended(Unknown Source)
+	at com.ibm.etools.references.internal.InternalReferencesJob$InternalRunner.runRunnable(Unknown Source)
+	at com.ibm.etools.references.internal.InternalReferencesJob$InternalRunner.doRun(Unknown Source)
+	at com.ibm.etools.references.internal.InternalReferencesJob$InternalRunner.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at com.ibm.etools.references.internal.ThreadSupport$ScheduledFutureTask$CallableWrapper.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at com.ibm.etools.references.internal.ReferenceThreadFactrory$ReferencesThread.run(Unknown Source)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 2 0 2011-08-31 00:10:35.591
+!MESSAGE The ">", ">=", "<", and "<=" notation in version expressions has been deprecated. Note that the angle brackets are represented via "&lt;" and "&gt;" in the plugin.xml files. The functionality has been replaced with range notation. For instance "[X-Y)" means all versions greater or equals to X and less than Y. Open ranges such as "(X" or "Y]" are also allowed.
+
+Expression: >=3.0
+Project facet: EJB 모듈
+
+!ENTRY org.eclipse.core.jobs 4 2 2011-08-31 00:23:13.749
+!MESSAGE 다음 수행 중에 내부 오류 발생: "Java 어노테이션 모델 업데이트".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.emf.ecore.util.EcoreUtil.getAdapter(Unknown Source)
+	at org.eclipse.emf.ecore.util.EcoreUtil.getExistingAdapter(Unknown Source)
+	at org.eclipse.emf.ecore.util.EcoreUtil.getRegisteredAdapter(Unknown Source)
+	at com.ibm.etools.javaee.merge.MMAdapter.removeAndReplaceEObjectFromList(Unknown Source)
+	at com.ibm.etools.javaee.merge.MMAdapter.processRemoveEvents(Unknown Source)
+	at com.ibm.etools.javaee.merge.MMAdapter.notifyChanged(Unknown Source)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(Unknown Source)
+	at org.eclipse.emf.common.notify.impl.NotificationImpl.dispatch(Unknown Source)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.remove(Unknown Source)
+	at org.eclipse.emf.ecore.util.BasicFeatureMap.remove(Unknown Source)
+	at org.eclipse.emf.ecore.util.FeatureMapUtil$FeatureEList.remove(Unknown Source)
+	at org.eclipse.emf.ecore.util.EcoreUtil.remove(Unknown Source)
+	at org.eclipse.emf.ecore.util.EcoreUtil.delete(Unknown Source)
+	at com.ibm.etools.javaee.annotations.internal.utils.BaseModelUtils.cleanUpModel(Unknown Source)
+	at com.ibm.etools.javaee.annotations.base.EMF2AnnotationBaseAdapterImpl.cleanUpModel(Unknown Source)
+	at com.ibm.etools.javaee.annotations.base.EMF2AnnotationBaseAdapterImpl.propertyChange(Unknown Source)
+	at com.ibm.propertygroup.spi.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at com.ibm.propertygroup.spi.PropertyChangeSupport.firePropertyInValid(Unknown Source)
+	at com.ibm.etools.annotations.core.data.AnnotatedClassInfo$AnnotatedClassInfoUpdateJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Unknown Source)
+
+!ENTRY org.eclipse.core.jobs 4 2 2011-08-31 00:23:14.292
+!MESSAGE 다음 수행 중에 내부 오류 발생: "Java 어노테이션 모델 업데이트".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.emf.ecore.util.EcoreUtil.getAdapter(Unknown Source)
+	at org.eclipse.emf.ecore.util.EcoreUtil.getExistingAdapter(Unknown Source)
+	at org.eclipse.emf.ecore.util.EcoreUtil.getRegisteredAdapter(Unknown Source)
+	at com.ibm.etools.javaee.merge.MMAdapter.removeAndReplaceEObjectFromList(Unknown Source)
+	at com.ibm.etools.javaee.merge.MMAdapter.processRemoveEvents(Unknown Source)
+	at com.ibm.etools.javaee.merge.MMAdapter.notifyChanged(Unknown Source)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(Unknown Source)
+	at org.eclipse.emf.common.notify.impl.NotificationImpl.dispatch(Unknown Source)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.remove(Unknown Source)
+	at org.eclipse.emf.ecore.util.BasicFeatureMap.remove(Unknown Source)
+	at org.eclipse.emf.ecore.util.FeatureMapUtil$FeatureEList.remove(Unknown Source)
+	at org.eclipse.emf.ecore.util.EcoreUtil.remove(Unknown Source)
+	at org.eclipse.emf.ecore.util.EcoreUtil.delete(Unknown Source)
+	at com.ibm.etools.javaee.annotations.internal.utils.BaseModelUtils.cleanUpModel(Unknown Source)
+	at com.ibm.etools.javaee.annotations.base.EMF2AnnotationBaseAdapterImpl.cleanUpModel(Unknown Source)
+	at com.ibm.etools.javaee.annotations.base.EMF2AnnotationBaseAdapterImpl.propertyChange(Unknown Source)
+	at com.ibm.propertygroup.spi.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at com.ibm.propertygroup.spi.PropertyChangeSupport.firePropertyInValid(Unknown Source)
+	at com.ibm.etools.annotations.core.data.AnnotatedClassInfo$AnnotatedClassInfoUpdateJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Unknown Source)
+
+!ENTRY org.eclipse.core.jobs 4 2 2011-08-31 00:23:27.891
+!MESSAGE 다음 수행 중에 내부 오류 발생: "Java 어노테이션 모델 업데이트".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.emf.ecore.util.EcoreUtil.getAdapter(Unknown Source)
+	at org.eclipse.emf.ecore.util.EcoreUtil.getExistingAdapter(Unknown Source)
+	at org.eclipse.emf.ecore.util.EcoreUtil.getRegisteredAdapter(Unknown Source)
+	at com.ibm.etools.javaee.merge.MMAdapter.removeAndReplaceEObjectFromList(Unknown Source)
+	at com.ibm.etools.javaee.merge.MMAdapter.processRemoveEvents(Unknown Source)
+	at com.ibm.etools.javaee.merge.MMAdapter.notifyChanged(Unknown Source)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(Unknown Source)
+	at org.eclipse.emf.common.notify.impl.NotificationImpl.dispatch(Unknown Source)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.remove(Unknown Source)
+	at org.eclipse.emf.ecore.util.BasicFeatureMap.remove(Unknown Source)
+	at org.eclipse.emf.ecore.util.FeatureMapUtil$FeatureEList.remove(Unknown Source)
+	at org.eclipse.emf.ecore.util.EcoreUtil.remove(Unknown Source)
+	at org.eclipse.emf.ecore.util.EcoreUtil.delete(Unknown Source)
+	at com.ibm.etools.javaee.annotations.internal.utils.BaseModelUtils.cleanUpModel(Unknown Source)
+	at com.ibm.etools.javaee.annotations.base.EMF2AnnotationBaseAdapterImpl.cleanUpModel(Unknown Source)
+	at com.ibm.etools.javaee.annotations.base.EMF2AnnotationBaseAdapterImpl.propertyChange(Unknown Source)
+	at com.ibm.propertygroup.spi.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at com.ibm.propertygroup.spi.PropertyChangeSupport.firePropertyInValid(Unknown Source)
+	at com.ibm.etools.annotations.core.data.AnnotatedClassInfo$AnnotatedClassInfoUpdateJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Unknown Source)
+!SESSION 2011-08-31 03:31:45.092 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows 7 x86-32 jvmwi3260sr9-20110324_78506 (JIT enabled, AOT enabled)
+J9VM - 20110324_078506
+JIT  - r9_20101028_17488ifx3
+GC   - 20101027_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ko_KR
+Framework arguments:  -product com.ibm.rational.rad.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rad.product.v80.ide
+
+!ENTRY org.eclipse.ui 2 0 2011-08-31 03:31:58.052
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2011-08-31 03:31:58.052
+!MESSAGE Commands should really have a category: plug-in='com.ibm.ccl.soa.deploy.connections.ui', id='com.ibm.ccl.soa.deploy.connections.ui.new', categoryId='com.ibm.ccl.soa.deploy.core.ui.zephyr.commands'
+!SUBENTRY 1 org.eclipse.ui 2 0 2011-08-31 03:31:58.052
+!MESSAGE Commands should really have a category: plug-in='com.ibm.ccl.soa.deploy.connections.ui', id='com.ibm.ccl.soa.deploy.connections.ui.open', categoryId='com.ibm.ccl.soa.deploy.core.ui.zephyr.commands'
+
+!ENTRY org.eclipse.ui.workbench 2 0 2011-08-31 03:33:24.255
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2011-08-31 03:33:24.255
+!MESSAGE Conflict for 'org.eclipse.wst.jsdt.ui.edit.text.java.open.editor':
+HandlerActivation(commandId=org.eclipse.wst.jsdt.ui.edit.text.java.open.editor,
+	handler=ActionHandler(org.eclipse.wst.jsdt.ui.actions.OpenAction@7f087f08),
+	expression=AndExpression(AndExpression(org.eclipse.ui.SubActionBars$1@17831783,ActivePartExpression(com.ibm.etools.ui.navigator.SDNavigator@6b7c6b7c)),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@38433843)),sourcePriority=1064961)
+HandlerActivation(commandId=org.eclipse.wst.jsdt.ui.edit.text.java.open.editor,
+	handler=ActionHandler(org.eclipse.wst.jsdt.ui.actions.OpenAction@7f087f08),
+	expression=AndExpression(AndExpression(org.eclipse.ui.SubActionBars$1@17831783,ActivePartExpression(com.ibm.etools.ui.navigator.SDNavigator@6b7c6b7c)),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@38433843)),sourcePriority=1064961)
+
+!ENTRY org.eclipse.core.jobs 4 2 2011-08-31 03:34:25.043
+!MESSAGE 다음 수행 중에 내부 오류 발생: "Java 어노테이션 모델 업데이트".
+!STACK 0
+java.lang.IndexOutOfBoundsException: index=13, size=13
+	at org.eclipse.emf.ecore.util.BasicFeatureMap.get(Unknown Source)
+	at org.eclipse.emf.ecore.util.FeatureMapUtil$FeatureEList.get(Unknown Source)
+	at com.ibm.etools.javaee.merge.WebMergedModelAdapter.mergeNewValueWithContributions(Unknown Source)
+	at com.ibm.etools.javaee.merge.WebMergedModelAdapter.addObjectToList(Unknown Source)
+	at com.ibm.etools.javaee.merge.MMAdapter.processAddEvents(Unknown Source)
+	at com.ibm.etools.javaee.merge.MMAdapter.notifyChanged(Unknown Source)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(Unknown Source)
+	at org.eclipse.emf.common.notify.impl.NotificationImpl.dispatch(Unknown Source)
+	at org.eclipse.emf.ecore.util.BasicFeatureMap.addUnique(Unknown Source)
+	at org.eclipse.emf.ecore.util.BasicFeatureMap.addUnique(Unknown Source)
+	at org.eclipse.emf.ecore.util.BasicFeatureMap.addUnique(Unknown Source)
+	at org.eclipse.emf.common.util.AbstractEList.add(Unknown Source)
+	at org.eclipse.emf.ecore.util.BasicFeatureMap.doAdd(Unknown Source)
+	at org.eclipse.emf.ecore.util.BasicFeatureMap.add(Unknown Source)
+	at org.eclipse.emf.ecore.util.FeatureMapUtil$FeatureEList.add(Unknown Source)
+	at org.eclipse.wst.common.internal.emf.utilities.ExtendedEcoreUtil.eSetOrAdd(Unknown Source)
+	at com.ibm.etools.javaee.annotations.internal.utils.BaseEMFUtils.setMOFValue(Unknown Source)
+	at com.ibm.etools.javaee.annotations.internal.utils.BaseEMFUtils.setMOFValue(Unknown Source)
+	at com.ibm.etools.javaee.annotations.internal.utils.BaseEMFUtils.setMOFValue(Unknown Source)
+	at com.ibm.etools.javaee.annotations.base.AnnotationToEMFBaseMapper.handleSingleLevelAnnotation(Unknown Source)
+	at com.ibm.etools.javaee.annotations.base.AnnotationToEMFBaseMapper.handleAnnotation(Unknown Source)
+	at com.ibm.etools.javaee.annotations.base.EMF2AnnotationBaseAdapterImpl.handleAnnotatedClassInfo(Unknown Source)
+	at com.ibm.etools.javaee.annotations.base.EMF2AnnotationBaseAdapterImpl.propertyChange(Unknown Source)
+	at com.ibm.propertygroup.spi.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at com.ibm.propertygroup.spi.PropertyChangeSupport.firePropertyInValid(Unknown Source)
+	at com.ibm.etools.annotations.core.data.AnnotatedClassInfo$AnnotatedClassInfoUpdateJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Unknown Source)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 2 0 2011-08-31 15:17:29.512
+!MESSAGE The ">", ">=", "<", and "<=" notation in version expressions has been deprecated. Note that the angle brackets are represented via "&lt;" and "&gt;" in the plugin.xml files. The functionality has been replaced with range notation. For instance "[X-Y)" means all versions greater or equals to X and less than Y. Open ranges such as "(X" or "Y]" are also allowed.
+
+Expression: >=3.0
+Project facet: EJB 모듈
+
+!ENTRY org.eclipse.wst.validation 4 0 2011-08-31 17:13:53.554
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.validation.internal.MarkerManager.createMarker(Unknown Source)
+	at org.eclipse.wst.validation.Validator$V2.validate(Unknown Source)
+	at org.eclipse.wst.validation.internal.ValManager.validate(Unknown Source)
+	at org.eclipse.wst.validation.internal.ValManager$1.visit(Unknown Source)
+	at org.eclipse.wst.validation.internal.ValManager.accept(Unknown Source)
+	at org.eclipse.wst.validation.internal.ValManager.validate(Unknown Source)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(Unknown Source)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Unknown Source)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Unknown Source)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(Unknown Source)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(Unknown Source)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(Unknown Source)
+	at org.eclipse.core.internal.resources.Resource.accept(Unknown Source)
+	at org.eclipse.core.internal.resources.Resource.accept(Unknown Source)
+	at org.eclipse.core.internal.resources.Resource.accept(Unknown Source)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(Unknown Source)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(Unknown Source)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(Unknown Source)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Unknown Source)
+
+!ENTRY org.eclipse.text 4 2 2011-09-01 04:25:47.400
+!MESSAGE 플러그인 "org.eclipse.text"에서 코드 호출하는 중에 문제점이 발생했습니다.
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.rational.llc.internal.ui.editor.CoverageAnnotationSynchronizer$CoverageAnnotationListener.documentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.replace(Unknown Source)
+	at org.eclipse.text.edits.InsertEdit.performDocumentUpdating(Unknown Source)
+	at org.eclipse.text.edits.TextEdit.traverseDocumentUpdating(Unknown Source)
+	at org.eclipse.text.edits.TextEdit.traverseDocumentUpdating(Unknown Source)
+	at org.eclipse.text.edits.TextEdit.traverseDocumentUpdating(Unknown Source)
+	at org.eclipse.text.edits.TextEditProcessor.executeDo(Unknown Source)
+	at org.eclipse.text.edits.TextEdit.dispatchPerformEdits(Unknown Source)
+	at org.eclipse.text.edits.TextEditProcessor.performEdits(Unknown Source)
+	at org.eclipse.ltk.core.refactoring.TextChange.performEdits(Unknown Source)
+	at org.eclipse.ltk.core.refactoring.TextFileChange.access$0(Unknown Source)
+	at org.eclipse.ltk.core.refactoring.TextFileChange$1.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(Unknown Source)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(Unknown Source)
+	at org.eclipse.jface.operation.ModalContext.run(Unknown Source)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.run(Unknown Source)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.internalPerformFinish(Unknown Source)
+	at org.eclipse.ltk.ui.refactoring.UserInputWizardPage.performFinish(Unknown Source)
+	at com.ibm.jee.ejb.refactoring.ui.internal.wizards.PromoteMethodsTargetPage.performFinish(Unknown Source)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.performFinish(Unknown Source)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.okPressed(Unknown Source)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Unknown Source)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.jface.window.Window.runEventLoop(Unknown Source)
+	at org.eclipse.jface.window.Window.open(Unknown Source)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation$1.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(Unknown Source)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(Unknown Source)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(Unknown Source)
+	at com.ibm.jee.ejb.refactoring.ui.internal.actions.PromoteMethodsAction.run(Unknown Source)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(Unknown Source)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(Unknown Source)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(Unknown Source)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+
+!ENTRY org.eclipse.text 4 2 2011-09-01 04:25:47.449
+!MESSAGE 플러그인 "org.eclipse.text"에서 코드 호출하는 중에 문제점이 발생했습니다.
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.rational.llc.internal.ui.editor.CoverageAnnotationSynchronizer$CoverageAnnotationListener.documentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.replace(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.replace(Unknown Source)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.replace(Unknown Source)
+	at org.eclipse.text.edits.InsertEdit.performDocumentUpdating(Unknown Source)
+	at org.eclipse.text.edits.TextEdit.traverseDocumentUpdating(Unknown Source)
+	at org.eclipse.text.edits.TextEdit.traverseDocumentUpdating(Unknown Source)
+	at org.eclipse.text.edits.TextEdit.traverseDocumentUpdating(Unknown Source)
+	at org.eclipse.text.edits.TextEditProcessor.executeDo(Unknown Source)
+	at org.eclipse.text.edits.TextEdit.dispatchPerformEdits(Unknown Source)
+	at org.eclipse.text.edits.TextEditProcessor.performEdits(Unknown Source)
+	at org.eclipse.ltk.core.refactoring.TextChange.performEdits(Unknown Source)
+	at org.eclipse.ltk.core.refactoring.TextFileChange.access$0(Unknown Source)
+	at org.eclipse.ltk.core.refactoring.TextFileChange$1.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(Unknown Source)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(Unknown Source)
+	at org.eclipse.jface.operation.ModalContext.run(Unknown Source)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.run(Unknown Source)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.internalPerformFinish(Unknown Source)
+	at org.eclipse.ltk.ui.refactoring.UserInputWizardPage.performFinish(Unknown Source)
+	at com.ibm.jee.ejb.refactoring.ui.internal.wizards.PromoteMethodsTargetPage.performFinish(Unknown Source)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.performFinish(Unknown Source)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.okPressed(Unknown Source)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Unknown Source)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.jface.window.Window.runEventLoop(Unknown Source)
+	at org.eclipse.jface.window.Window.open(Unknown Source)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation$1.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(Unknown Source)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(Unknown Source)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(Unknown Source)
+	at com.ibm.jee.ejb.refactoring.ui.internal.actions.PromoteMethodsAction.run(Unknown Source)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(Unknown Source)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(Unknown Source)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(Unknown Source)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+!SESSION 2011-09-01 23:06:54.896 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows 7 x86-32 jvmwi3260sr9-20110324_78506 (JIT enabled, AOT enabled)
+J9VM - 20110324_078506
+JIT  - r9_20101028_17488ifx3
+GC   - 20101027_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ko_KR
+Framework arguments:  -product com.ibm.rational.rad.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rad.product.v80.ide
+
+!ENTRY org.eclipse.ui 2 0 2011-09-01 23:07:12.257
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2011-09-01 23:07:12.257
+!MESSAGE Commands should really have a category: plug-in='com.ibm.ccl.soa.deploy.connections.ui', id='com.ibm.ccl.soa.deploy.connections.ui.new', categoryId='com.ibm.ccl.soa.deploy.core.ui.zephyr.commands'
+!SUBENTRY 1 org.eclipse.ui 2 0 2011-09-01 23:07:12.257
+!MESSAGE Commands should really have a category: plug-in='com.ibm.ccl.soa.deploy.connections.ui', id='com.ibm.ccl.soa.deploy.connections.ui.open', categoryId='com.ibm.ccl.soa.deploy.core.ui.zephyr.commands'
+
+!ENTRY org.eclipse.ui.workbench 2 0 2011-09-02 02:20:17.116
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2011-09-02 02:20:17.141
+!MESSAGE Conflict for 'org.eclipse.wst.jsdt.ui.edit.text.java.open.editor':
+HandlerActivation(commandId=org.eclipse.wst.jsdt.ui.edit.text.java.open.editor,
+	handler=ActionHandler(org.eclipse.wst.jsdt.ui.actions.OpenAction@35133513),
+	expression=AndExpression(AndExpression(org.eclipse.ui.SubActionBars$1@4fb64fb6,ActivePartExpression(com.ibm.etools.ui.navigator.SDNavigator@2c322c32)),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@6b466b46)),sourcePriority=1064961)
+HandlerActivation(commandId=org.eclipse.wst.jsdt.ui.edit.text.java.open.editor,
+	handler=ActionHandler(org.eclipse.wst.jsdt.ui.actions.OpenAction@35133513),
+	expression=AndExpression(AndExpression(org.eclipse.ui.SubActionBars$1@4fb64fb6,ActivePartExpression(com.ibm.etools.ui.navigator.SDNavigator@2c322c32)),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@6b466b46)),sourcePriority=1064961)
+
+!ENTRY com.ibm.etools.siteedit 4 4 2011-09-02 02:21:02.562
+!MESSAGE IWAU0002E 파일 열기 실패 - /ImageWeb/WebContent/WEB-INF/lib/commons-fileupload-1.2.2/site/changes-report.html
+!STACK 0
+org.eclipse.wst.sse.core.internal.exceptions.MalformedInputExceptionWithDetail
+	at org.eclipse.wst.sse.core.internal.document.AbstractDocumentLoader.readInputStream(Unknown Source)
+	at org.eclipse.wst.sse.core.internal.document.AbstractDocumentLoader.setDocumentContentsFromReader(Unknown Source)
+	at org.eclipse.wst.sse.core.internal.document.AbstractDocumentLoader.createNewStructuredDocument(Unknown Source)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl.createStructuredDocumentFor(Unknown Source)
+	at com.ibm.etools.siteedit.internal.builder.model.SitePageFlatModel.<init>(Unknown Source)
+	at com.ibm.etools.siteedit.internal.builder.model.SitePageModelFactory.crate(Unknown Source)
+	at com.ibm.etools.siteedit.internal.builder.model.SitePageModelFactory.internalIsTemplate(Unknown Source)
+	at com.ibm.etools.siteedit.internal.builder.util.BuildUtil.isTemplate(Unknown Source)
+	at com.ibm.etools.siteedit.internal.core.util.SiteTemplateUtil.isTemplate(Unknown Source)
+	at com.ibm.etools.siteedit.util.SiteUtil.canAddToNavigation(Unknown Source)
+	at com.ibm.etools.siteedit.newpagepane.NewlyCreatedPagePane.insertItem(Unknown Source)
+	at com.ibm.etools.siteedit.newpagepane.NewlyCreatedPagePane.refreshTable(Unknown Source)
+	at com.ibm.etools.siteedit.newpagepane.NewlyCreatedPagePane.createPaneArea(Unknown Source)
+	at com.ibm.etools.siteedit.site.editor.SiteEditorPart.createSiteStructurePage(Unknown Source)
+	at com.ibm.etools.siteedit.site.editor.SiteEditorPart.createPages(Unknown Source)
+	at org.eclipse.ui.part.MultiPageEditorPart.createPartControl(Unknown Source)
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(Unknown Source)
+	at org.eclipse.ui.internal.EditorReference.createPart(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(Unknown Source)
+	at org.eclipse.ui.internal.EditorReference.getEditor(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditorBatched(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.access$11(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage$10.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(Unknown Source)
+	at org.eclipse.ui.ide.IDE.openEditor(Unknown Source)
+	at com.ibm.etools.siteedit.navigator.WebSiteNavigationOpenAction$1.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at com.ibm.etools.siteedit.navigator.WebSiteNavigationOpenAction.run(Unknown Source)
+	at com.ibm.etools.siteedit.navigator.WebSiteNavigationActionProvider.open(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(Unknown Source)
+	at org.eclipse.jface.util.SafeRunnable.run(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(Unknown Source)
+	at org.eclipse.ui.navigator.CommonViewer.handleOpen(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer$6.handleOpen(Unknown Source)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(Unknown Source)
+	at org.eclipse.jface.util.OpenStrategy.access$2(Unknown Source)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+
+!ENTRY com.ibm.etools.siteedit 4 4 2011-09-02 02:21:02.603
+!MESSAGE IWAU0002E 파일 열기 실패 - /ImageWeb/WebContent/WEB-INF/lib/commons-fileupload-1.2.2/site/changes-report.html
+!STACK 0
+org.eclipse.wst.sse.core.internal.exceptions.MalformedInputExceptionWithDetail
+	at org.eclipse.wst.sse.core.internal.document.AbstractDocumentLoader.readInputStream(Unknown Source)
+	at org.eclipse.wst.sse.core.internal.document.AbstractDocumentLoader.setDocumentContentsFromReader(Unknown Source)
+	at org.eclipse.wst.sse.core.internal.document.AbstractDocumentLoader.createNewStructuredDocument(Unknown Source)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl.createStructuredDocumentFor(Unknown Source)
+	at com.ibm.etools.siteedit.internal.builder.model.SitePageFlatModel.<init>(Unknown Source)
+	at com.ibm.etools.siteedit.internal.builder.model.SitePageModelFactory.crate(Unknown Source)
+	at com.ibm.etools.siteedit.internal.builder.model.SitePageModelFactory.internalIsTemplate(Unknown Source)
+	at com.ibm.etools.siteedit.internal.builder.util.BuildUtil.isTemplate(Unknown Source)
+	at com.ibm.etools.siteedit.internal.core.util.SiteTemplateUtil.isTemplate(Unknown Source)
+	at com.ibm.etools.siteedit.util.SiteUtil.canAddToNavigation(Unknown Source)
+	at com.ibm.etools.siteedit.site.util.SiteNavigationFileFilterUtil.isSiteNavigationCandidate(Unknown Source)
+	at com.ibm.etools.siteedit.site.util.SiteNavigationFileFilterUtil$1.select(Unknown Source)
+	at com.ibm.etools.siteedit.newpagepane.NewlyCreatedPagePane.insertItem(Unknown Source)
+	at com.ibm.etools.siteedit.newpagepane.NewlyCreatedPagePane.refreshTable(Unknown Source)
+	at com.ibm.etools.siteedit.newpagepane.NewlyCreatedPagePane.createPaneArea(Unknown Source)
+	at com.ibm.etools.siteedit.site.editor.SiteEditorPart.createSiteStructurePage(Unknown Source)
+	at com.ibm.etools.siteedit.site.editor.SiteEditorPart.createPages(Unknown Source)
+	at org.eclipse.ui.part.MultiPageEditorPart.createPartControl(Unknown Source)
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(Unknown Source)
+	at org.eclipse.ui.internal.EditorReference.createPart(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(Unknown Source)
+	at org.eclipse.ui.internal.EditorReference.getEditor(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditorBatched(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.access$11(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage$10.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(Unknown Source)
+	at org.eclipse.ui.ide.IDE.openEditor(Unknown Source)
+	at com.ibm.etools.siteedit.navigator.WebSiteNavigationOpenAction$1.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at com.ibm.etools.siteedit.navigator.WebSiteNavigationOpenAction.run(Unknown Source)
+	at com.ibm.etools.siteedit.navigator.WebSiteNavigationActionProvider.open(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(Unknown Source)
+	at org.eclipse.jface.util.SafeRunnable.run(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(Unknown Source)
+	at org.eclipse.ui.navigator.CommonViewer.handleOpen(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer$6.handleOpen(Unknown Source)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(Unknown Source)
+	at org.eclipse.jface.util.OpenStrategy.access$2(Unknown Source)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+
+!ENTRY com.ibm.etools.siteedit 4 4 2011-09-02 02:21:02.794
+!MESSAGE IWAU0002E 파일 열기 실패 - /ImageWeb/WebContent/WEB-INF/lib/commons-fileupload-1.2.2/site/team-list.html
+!STACK 0
+org.eclipse.wst.sse.core.internal.exceptions.MalformedInputExceptionWithDetail
+	at org.eclipse.wst.sse.core.internal.document.AbstractDocumentLoader.readInputStream(Unknown Source)
+	at org.eclipse.wst.sse.core.internal.document.AbstractDocumentLoader.setDocumentContentsFromReader(Unknown Source)
+	at org.eclipse.wst.sse.core.internal.document.AbstractDocumentLoader.createNewStructuredDocument(Unknown Source)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl.createStructuredDocumentFor(Unknown Source)
+	at com.ibm.etools.siteedit.internal.builder.model.SitePageFlatModel.<init>(Unknown Source)
+	at com.ibm.etools.siteedit.internal.builder.model.SitePageModelFactory.crate(Unknown Source)
+	at com.ibm.etools.siteedit.internal.builder.model.SitePageModelFactory.internalIsTemplate(Unknown Source)
+	at com.ibm.etools.siteedit.internal.builder.util.BuildUtil.isTemplate(Unknown Source)
+	at com.ibm.etools.siteedit.internal.core.util.SiteTemplateUtil.isTemplate(Unknown Source)
+	at com.ibm.etools.siteedit.util.SiteUtil.canAddToNavigation(Unknown Source)
+	at com.ibm.etools.siteedit.newpagepane.NewlyCreatedPagePane.insertItem(Unknown Source)
+	at com.ibm.etools.siteedit.newpagepane.NewlyCreatedPagePane.refreshTable(Unknown Source)
+	at com.ibm.etools.siteedit.newpagepane.NewlyCreatedPagePane.createPaneArea(Unknown Source)
+	at com.ibm.etools.siteedit.site.editor.SiteEditorPart.createSiteStructurePage(Unknown Source)
+	at com.ibm.etools.siteedit.site.editor.SiteEditorPart.createPages(Unknown Source)
+	at org.eclipse.ui.part.MultiPageEditorPart.createPartControl(Unknown Source)
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(Unknown Source)
+	at org.eclipse.ui.internal.EditorReference.createPart(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(Unknown Source)
+	at org.eclipse.ui.internal.EditorReference.getEditor(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditorBatched(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.access$11(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage$10.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(Unknown Source)
+	at org.eclipse.ui.ide.IDE.openEditor(Unknown Source)
+	at com.ibm.etools.siteedit.navigator.WebSiteNavigationOpenAction$1.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at com.ibm.etools.siteedit.navigator.WebSiteNavigationOpenAction.run(Unknown Source)
+	at com.ibm.etools.siteedit.navigator.WebSiteNavigationActionProvider.open(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(Unknown Source)
+	at org.eclipse.jface.util.SafeRunnable.run(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(Unknown Source)
+	at org.eclipse.ui.navigator.CommonViewer.handleOpen(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer$6.handleOpen(Unknown Source)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(Unknown Source)
+	at org.eclipse.jface.util.OpenStrategy.access$2(Unknown Source)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+
+!ENTRY com.ibm.etools.siteedit 4 4 2011-09-02 02:21:02.797
+!MESSAGE IWAU0002E 파일 열기 실패 - /ImageWeb/WebContent/WEB-INF/lib/commons-fileupload-1.2.2/site/team-list.html
+!STACK 0
+org.eclipse.wst.sse.core.internal.exceptions.MalformedInputExceptionWithDetail
+	at org.eclipse.wst.sse.core.internal.document.AbstractDocumentLoader.readInputStream(Unknown Source)
+	at org.eclipse.wst.sse.core.internal.document.AbstractDocumentLoader.setDocumentContentsFromReader(Unknown Source)
+	at org.eclipse.wst.sse.core.internal.document.AbstractDocumentLoader.createNewStructuredDocument(Unknown Source)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl.createStructuredDocumentFor(Unknown Source)
+	at com.ibm.etools.siteedit.internal.builder.model.SitePageFlatModel.<init>(Unknown Source)
+	at com.ibm.etools.siteedit.internal.builder.model.SitePageModelFactory.crate(Unknown Source)
+	at com.ibm.etools.siteedit.internal.builder.model.SitePageModelFactory.internalIsTemplate(Unknown Source)
+	at com.ibm.etools.siteedit.internal.builder.util.BuildUtil.isTemplate(Unknown Source)
+	at com.ibm.etools.siteedit.internal.core.util.SiteTemplateUtil.isTemplate(Unknown Source)
+	at com.ibm.etools.siteedit.util.SiteUtil.canAddToNavigation(Unknown Source)
+	at com.ibm.etools.siteedit.site.util.SiteNavigationFileFilterUtil.isSiteNavigationCandidate(Unknown Source)
+	at com.ibm.etools.siteedit.site.util.SiteNavigationFileFilterUtil$1.select(Unknown Source)
+	at com.ibm.etools.siteedit.newpagepane.NewlyCreatedPagePane.insertItem(Unknown Source)
+	at com.ibm.etools.siteedit.newpagepane.NewlyCreatedPagePane.refreshTable(Unknown Source)
+	at com.ibm.etools.siteedit.newpagepane.NewlyCreatedPagePane.createPaneArea(Unknown Source)
+	at com.ibm.etools.siteedit.site.editor.SiteEditorPart.createSiteStructurePage(Unknown Source)
+	at com.ibm.etools.siteedit.site.editor.SiteEditorPart.createPages(Unknown Source)
+	at org.eclipse.ui.part.MultiPageEditorPart.createPartControl(Unknown Source)
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(Unknown Source)
+	at org.eclipse.ui.internal.EditorReference.createPart(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(Unknown Source)
+	at org.eclipse.ui.internal.EditorReference.getEditor(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditorBatched(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.access$11(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage$10.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(Unknown Source)
+	at org.eclipse.ui.ide.IDE.openEditor(Unknown Source)
+	at com.ibm.etools.siteedit.navigator.WebSiteNavigationOpenAction$1.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at com.ibm.etools.siteedit.navigator.WebSiteNavigationOpenAction.run(Unknown Source)
+	at com.ibm.etools.siteedit.navigator.WebSiteNavigationActionProvider.open(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(Unknown Source)
+	at org.eclipse.jface.util.SafeRunnable.run(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(Unknown Source)
+	at org.eclipse.ui.navigator.CommonViewer.handleOpen(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer$6.handleOpen(Unknown Source)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(Unknown Source)
+	at org.eclipse.jface.util.OpenStrategy.access$2(Unknown Source)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+
+!ENTRY org.eclipse.jface.text 4 0 2011-09-02 04:26:20.474
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.StringIndexOutOfBoundsException
+	at java.lang.String.substring(Unknown Source)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.initJspAndServletNames(Unknown Source)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.fixupMangledName(Unknown Source)
+	at org.eclipse.jst.jsp.ui.internal.taginfo.JSPJavaJavadocHoverProcessor.getHoverInfo(Unknown Source)
+	at org.eclipse.wst.sse.ui.internal.taginfo.BestMatchHover.getHoverInfo(Unknown Source)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(Unknown Source)
+
+!ENTRY org.eclipse.jface.text 4 0 2011-09-02 04:26:24.772
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.StringIndexOutOfBoundsException
+	at java.lang.String.substring(Unknown Source)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.initJspAndServletNames(Unknown Source)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.fixupMangledName(Unknown Source)
+	at org.eclipse.jst.jsp.ui.internal.taginfo.JSPJavaJavadocHoverProcessor.getHoverInfo(Unknown Source)
+	at org.eclipse.wst.sse.ui.internal.taginfo.BestMatchHover.getHoverInfo(Unknown Source)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(Unknown Source)
+
+!ENTRY org.eclipse.jface.text 4 0 2011-09-02 04:27:25.612
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.StringIndexOutOfBoundsException
+	at java.lang.String.substring(Unknown Source)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.initJspAndServletNames(Unknown Source)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslation.fixupMangledName(Unknown Source)
+	at org.eclipse.jst.jsp.ui.internal.taginfo.JSPJavaJavadocHoverProcessor.getHoverInfo(Unknown Source)
+	at org.eclipse.wst.sse.ui.internal.taginfo.BestMatchHover.getHoverInfo(Unknown Source)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(Unknown Source)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 2 0 2011-09-02 04:32:33.909
+!MESSAGE The ">", ">=", "<", and "<=" notation in version expressions has been deprecated. Note that the angle brackets are represented via "&lt;" and "&gt;" in the plugin.xml files. The functionality has been replaced with range notation. For instance "[X-Y)" means all versions greater or equals to X and less than Y. Open ranges such as "(X" or "Y]" are also allowed.
+
+Expression: >=3.0
+Project facet: EJB 모듈
+
+!ENTRY com.ibm.etools.references 4 10000 2011-09-02 05:07:31.049
+!MESSAGE /ImageWeb/WebContent/WEB-INF/lib/commons-fileupload-1.2.2/site/xref/org/apache/commons/fileupload/FileUploadBase.html을(를) 색인화하는 중에 심각한 오류가 발생했습니다. 링크 색인기를 사용할 수 없습니다.
+!SUBENTRY 1 com.ibm.etools.references 4 10000 2011-09-02 05:07:31.049
+!MESSAGE ClassCastException
+!STACK 0
+java.lang.ClassCastException: com.ibm.etools.references.management.Reference incompatible with com.ibm.etools.references.management.IResolvedReference
+	at com.ibm.etools.references.internal.management.ReferenceProcessor.getInitialIncomingReferences(Unknown Source)
+	at com.ibm.etools.references.internal.management.ReferenceProcessor.indexItem(Unknown Source)
+	at com.ibm.etools.references.internal.management.ReferenceProcessor.indexLoop(Unknown Source)
+	at com.ibm.etools.references.internal.management.ReferenceProcessor.call(Unknown Source)
+	at com.ibm.etools.references.internal.InternalReferencesJob$InternalRunner.runRunnable(Unknown Source)
+	at com.ibm.etools.references.internal.InternalReferencesJob$InternalRunner.doRun(Unknown Source)
+	at com.ibm.etools.references.internal.InternalReferencesJob$InternalRunner.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at com.ibm.etools.references.internal.ThreadSupport$ScheduledFutureTask$CallableWrapper.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at com.ibm.etools.references.internal.ReferenceThreadFactrory$ReferencesThread.run(Unknown Source)
+
+!ENTRY com.ibm.etools.references 1 0 2011-09-02 05:07:31.090
+!MESSAGE 색인화 중에 문제점이 발생했습니다. 자동 오류 복구를 수행하는 중입니다. 1을(를) 연속적으로 시도합니다.
+!SESSION 2011-09-03 22:50:59.893 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows 7 x86-32 jvmwi3260sr9-20110324_78506 (JIT enabled, AOT enabled)
+J9VM - 20110324_078506
+JIT  - r9_20101028_17488ifx3
+GC   - 20101027_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ko_KR
+Framework arguments:  -product com.ibm.rational.rad.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rad.product.v80.ide
+
+!ENTRY org.eclipse.ui 2 0 2011-09-03 22:51:13.007
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2011-09-03 22:51:13.007
+!MESSAGE Commands should really have a category: plug-in='com.ibm.ccl.soa.deploy.connections.ui', id='com.ibm.ccl.soa.deploy.connections.ui.new', categoryId='com.ibm.ccl.soa.deploy.core.ui.zephyr.commands'
+!SUBENTRY 1 org.eclipse.ui 2 0 2011-09-03 22:51:13.007
+!MESSAGE Commands should really have a category: plug-in='com.ibm.ccl.soa.deploy.connections.ui', id='com.ibm.ccl.soa.deploy.connections.ui.open', categoryId='com.ibm.ccl.soa.deploy.core.ui.zephyr.commands'
+
+!ENTRY org.eclipse.ui.workbench 2 0 2011-09-03 23:01:05.143
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2011-09-03 23:01:05.143
+!MESSAGE Conflict for 'org.eclipse.wst.jsdt.ui.edit.text.java.open.editor':
+HandlerActivation(commandId=org.eclipse.wst.jsdt.ui.edit.text.java.open.editor,
+	handler=ActionHandler(org.eclipse.wst.jsdt.ui.actions.OpenAction@277e277e),
+	expression=AndExpression(AndExpression(org.eclipse.ui.SubActionBars$1@47824782,ActivePartExpression(com.ibm.etools.ui.navigator.SDNavigator@651e651e)),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@4abe4abe)),sourcePriority=1064961)
+HandlerActivation(commandId=org.eclipse.wst.jsdt.ui.edit.text.java.open.editor,
+	handler=ActionHandler(org.eclipse.wst.jsdt.ui.actions.OpenAction@277e277e),
+	expression=AndExpression(AndExpression(org.eclipse.ui.SubActionBars$1@47824782,ActivePartExpression(com.ibm.etools.ui.navigator.SDNavigator@651e651e)),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@4abe4abe)),sourcePriority=1064961)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 2 0 2011-09-03 23:34:21.542
+!MESSAGE The ">", ">=", "<", and "<=" notation in version expressions has been deprecated. Note that the angle brackets are represented via "&lt;" and "&gt;" in the plugin.xml files. The functionality has been replaced with range notation. For instance "[X-Y)" means all versions greater or equals to X and less than Y. Open ranges such as "(X" or "Y]" are also allowed.
+
+Expression: >=3.0
+Project facet: EJB 모듈
+!SESSION 2011-09-04 13:25:06.285 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows 7 x86-32 jvmwi3260sr9-20110324_78506 (JIT enabled, AOT enabled)
+J9VM - 20110324_078506
+JIT  - r9_20101028_17488ifx3
+GC   - 20101027_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ko_KR
+Framework arguments:  -product com.ibm.rational.rad.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rad.product.v80.ide
+
+!ENTRY org.eclipse.ui 2 0 2011-09-04 13:25:13.667
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2011-09-04 13:25:13.667
+!MESSAGE Commands should really have a category: plug-in='com.ibm.ccl.soa.deploy.connections.ui', id='com.ibm.ccl.soa.deploy.connections.ui.new', categoryId='com.ibm.ccl.soa.deploy.core.ui.zephyr.commands'
+!SUBENTRY 1 org.eclipse.ui 2 0 2011-09-04 13:25:13.667
+!MESSAGE Commands should really have a category: plug-in='com.ibm.ccl.soa.deploy.connections.ui', id='com.ibm.ccl.soa.deploy.connections.ui.open', categoryId='com.ibm.ccl.soa.deploy.core.ui.zephyr.commands'
+
+!ENTRY org.eclipse.wst.common.project.facet.core 2 0 2011-09-04 13:27:28.755
+!MESSAGE The ">", ">=", "<", and "<=" notation in version expressions has been deprecated. Note that the angle brackets are represented via "&lt;" and "&gt;" in the plugin.xml files. The functionality has been replaced with range notation. For instance "[X-Y)" means all versions greater or equals to X and less than Y. Open ranges such as "(X" or "Y]" are also allowed.
+
+Expression: >=3.0
+Project facet: EJB 모듈
+
+!ENTRY org.eclipse.ui.workbench 2 0 2011-09-04 14:12:04.533
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2011-09-04 14:12:04.533
+!MESSAGE Conflict for 'org.eclipse.wst.jsdt.ui.edit.text.java.open.editor':
+HandlerActivation(commandId=org.eclipse.wst.jsdt.ui.edit.text.java.open.editor,
+	handler=ActionHandler(org.eclipse.wst.jsdt.ui.actions.OpenAction@11881188),
+	expression=AndExpression(AndExpression(org.eclipse.ui.SubActionBars$1@38893889,ActivePartExpression(com.ibm.etools.ui.navigator.SDNavigator@40784078)),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@23892389)),sourcePriority=1064961)
+HandlerActivation(commandId=org.eclipse.wst.jsdt.ui.edit.text.java.open.editor,
+	handler=ActionHandler(org.eclipse.wst.jsdt.ui.actions.OpenAction@11881188),
+	expression=AndExpression(AndExpression(org.eclipse.ui.SubActionBars$1@38893889,ActivePartExpression(com.ibm.etools.ui.navigator.SDNavigator@40784078)),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@23892389)),sourcePriority=1064961)
+
+!ENTRY org.eclipse.wst.validation 4 0 2011-09-04 14:17:59.349
+!MESSAGE IWAE0027E 자원 ImageEAR의 유효성 검증 구성을 검색할 수 없습니다.
+!STACK 0
+java.lang.reflect.InvocationTargetException: IWAE0027E 자원 ImageEAR의 유효성 검증 구성을 검색할 수 없습니다.
+	at org.eclipse.wst.validation.internal.ConfigurationManager.getProjectConfiguration(Unknown Source)
+	at org.eclipse.wst.validation.internal.ConfigurationManager.getConfiguration(Unknown Source)
+	at org.eclipse.wst.validation.internal.ValManager.getValidatorsNotCached(Unknown Source)
+	at org.eclipse.wst.validation.internal.ValManager.access$1(Unknown Source)
+	at org.eclipse.wst.validation.internal.ValManager$ValidatorCache.getValidatorsCached(Unknown Source)
+	at org.eclipse.wst.validation.internal.ValManager.getValidators(Unknown Source)
+	at org.eclipse.wst.validation.internal.ValManager.accept(Unknown Source)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(Unknown Source)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(Unknown Source)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Unknown Source)
+Caused by: org.eclipse.core.internal.resources.ResourceException: '/ImageEAR' 자원이 없습니다.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Unknown Source)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Unknown Source)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Unknown Source)
+	at org.eclipse.core.internal.resources.Resource.checkAccessibleAndLocal(Unknown Source)
+	at org.eclipse.core.internal.resources.Resource.getSessionProperty(Unknown Source)
+	... 11 more
+Root exception:
+org.eclipse.core.internal.resources.ResourceException: '/ImageEAR' 자원이 없습니다.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Unknown Source)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Unknown Source)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Unknown Source)
+	at org.eclipse.core.internal.resources.Resource.checkAccessibleAndLocal(Unknown Source)
+	at org.eclipse.core.internal.resources.Resource.getSessionProperty(Unknown Source)
+	at org.eclipse.wst.validation.internal.ConfigurationManager.getProjectConfiguration(Unknown Source)
+	at org.eclipse.wst.validation.internal.ConfigurationManager.getConfiguration(Unknown Source)
+	at org.eclipse.wst.validation.internal.ValManager.getValidatorsNotCached(Unknown Source)
+	at org.eclipse.wst.validation.internal.ValManager.access$1(Unknown Source)
+	at org.eclipse.wst.validation.internal.ValManager$ValidatorCache.getValidatorsCached(Unknown Source)
+	at org.eclipse.wst.validation.internal.ValManager.getValidators(Unknown Source)
+	at org.eclipse.wst.validation.internal.ValManager.accept(Unknown Source)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(Unknown Source)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(Unknown Source)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Unknown Source)
+
+!ENTRY org.eclipse.ltk.core.refactoring 4 10000 2011-09-04 14:23:13.791
+!MESSAGE 내부 오류
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at com.ibm.etools.references.internal.management.UISafeConditionalWait.uiSafeWait(Unknown Source)
+	at com.ibm.etools.references.internal.management.UISafeConditionalWait.uiSafeWait(Unknown Source)
+	at com.ibm.etools.references.internal.management.SchedulerCondition.waitUntilReady(Unknown Source)
+	at com.ibm.etools.references.internal.management.AddToIndexJob.waitForScope(Unknown Source)
+	at com.ibm.etools.references.internal.management.Scheduler.waitForIndexing(Unknown Source)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager.waitForIndexing(Unknown Source)
+	at com.ibm.etools.references.management.ReferenceManager.waitForIndexing(Unknown Source)
+	at com.ibm.etools.references.internal.search.InternalSearchEngine.doSearch(Unknown Source)
+	at com.ibm.etools.references.internal.search.InternalSearchEngine.search(Unknown Source)
+	at com.ibm.etools.references.search.SearchEngine.search(Unknown Source)
+	at com.ibm.etools.references.web.javaee.internal.refactoring.JavaRefactoringSupport.getResolvedReferences(Unknown Source)
+	at com.ibm.etools.references.refactoring.RefactoringSupport.createEdits(Unknown Source)
+	at com.ibm.etools.references.refactoring.RefactoringSupport.createEdits(Unknown Source)
+	at com.ibm.etools.references.web.javaee.internal.refactoring.JavaReferenceRenameRefactoringParticipant.renameType(Unknown Source)
+	at com.ibm.etools.references.web.javaee.internal.refactoring.JavaReferenceRenameRefactoringParticipant.checkConditions(Unknown Source)
+	at org.eclipse.ltk.core.refactoring.participants.ProcessorBasedRefactoring.checkFinalConditions(Unknown Source)
+	at org.eclipse.ltk.core.refactoring.CheckConditionsOperation.run(Unknown Source)
+	at org.eclipse.ltk.core.refactoring.CreateChangeOperation.run(Unknown Source)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(Unknown Source)
+	at org.eclipse.core.internal.resources.Workspace.run(Unknown Source)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(Unknown Source)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(Unknown Source)
+
+!ENTRY com.ibm.etools.references 4 10000 2011-09-04 17:03:02.771
+!MESSAGE /ImageWeb1/WebContent/WEB-INF/lib/commons-fileupload-1.2.2/site/xref-test/org/apache/commons/fileupload/MockHttpServletRequest.html을(를) 색인화하는 중에 심각한 오류가 발생했습니다. 링크 색인기를 사용할 수 없습니다.
+!SUBENTRY 1 com.ibm.etools.references 4 10000 2011-09-04 17:03:02.782
+!MESSAGE ClassCastException
+!STACK 0
+java.lang.ClassCastException: com.ibm.etools.references.management.Reference incompatible with com.ibm.etools.references.management.IResolvedReference
+	at com.ibm.etools.references.internal.management.ReferenceProcessor.getInitialIncomingReferences(Unknown Source)
+	at com.ibm.etools.references.internal.management.ReferenceProcessor.indexItem(Unknown Source)
+	at com.ibm.etools.references.internal.management.ReferenceProcessor.indexLoop(Unknown Source)
+	at com.ibm.etools.references.internal.management.ReferenceProcessor.call(Unknown Source)
+	at com.ibm.etools.references.internal.InternalReferencesJob$InternalRunner.runRunnable(Unknown Source)
+	at com.ibm.etools.references.internal.InternalReferencesJob$InternalRunner.doRun(Unknown Source)
+	at com.ibm.etools.references.internal.InternalReferencesJob$InternalRunner.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at com.ibm.etools.references.internal.ThreadSupport$ScheduledFutureTask$CallableWrapper.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at com.ibm.etools.references.internal.ReferenceThreadFactrory$ReferencesThread.run(Unknown Source)
+
+!ENTRY com.ibm.etools.references 1 0 2011-09-04 17:03:02.807
+!MESSAGE 색인화 중에 문제점이 발생했습니다. 자동 오류 복구를 수행하는 중입니다. 1을(를) 연속적으로 시도합니다.
+
+!ENTRY org.eclipse.core.jobs 4 2 2011-09-04 23:15:08.346
+!MESSAGE 다음 수행 중에 내부 오류 발생: "Java 어노테이션 모델 업데이트".
+!STACK 0
+java.lang.NullPointerException
+	at java.util.Hashtable.put(Unknown Source)
+	at com.ibm.etools.annotations.ui.internal.override.DDOverrideIndicatorHelper.setAAnnotatedModelList(Unknown Source)
+	at com.ibm.etools.annotations.ui.internal.override.DDOverrideAnnotationListener.propertyChange(Unknown Source)
+	at com.ibm.propertygroup.spi.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at com.ibm.propertygroup.spi.PropertyChangeSupport.firePropertyInValid(Unknown Source)
+	at com.ibm.etools.annotations.core.data.AnnotatedClassInfo$AnnotatedClassInfoUpdateJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Unknown Source)
+!SESSION 2011-09-06 00:51:00.563 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows 7 x86-32 jvmwi3260sr9-20110324_78506 (JIT enabled, AOT enabled)
+J9VM - 20110324_078506
+JIT  - r9_20101028_17488ifx3
+GC   - 20101027_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ko_KR
+Framework arguments:  -product com.ibm.rational.rad.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rad.product.v80.ide
+
+!ENTRY org.eclipse.ui 2 0 2011-09-06 00:51:16.595
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2011-09-06 00:51:16.595
+!MESSAGE Commands should really have a category: plug-in='com.ibm.ccl.soa.deploy.connections.ui', id='com.ibm.ccl.soa.deploy.connections.ui.new', categoryId='com.ibm.ccl.soa.deploy.core.ui.zephyr.commands'
+!SUBENTRY 1 org.eclipse.ui 2 0 2011-09-06 00:51:16.595
+!MESSAGE Commands should really have a category: plug-in='com.ibm.ccl.soa.deploy.connections.ui', id='com.ibm.ccl.soa.deploy.connections.ui.open', categoryId='com.ibm.ccl.soa.deploy.core.ui.zephyr.commands'
+
+!ENTRY org.eclipse.wst.common.project.facet.core 2 0 2011-09-06 03:02:00.156
+!MESSAGE The ">", ">=", "<", and "<=" notation in version expressions has been deprecated. Note that the angle brackets are represented via "&lt;" and "&gt;" in the plugin.xml files. The functionality has been replaced with range notation. For instance "[X-Y)" means all versions greater or equals to X and less than Y. Open ranges such as "(X" or "Y]" are also allowed.
+
+Expression: >=3.0
+Project facet: EJB 모듈

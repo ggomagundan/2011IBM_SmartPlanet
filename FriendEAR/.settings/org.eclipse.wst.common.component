@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="FriendEAR">
+        <wb-resource deploy-path="/" source-path="/"/>
+        <dependent-module archiveName="FrinedWeb.war" deploy-path="/" handle="module:/resource/FrinedWeb/FrinedWeb">
+            <dependent-object>Module_1313254031508</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="FriendEJB.jar" deploy-path="/" handle="module:/resource/FriendEJB/FriendEJB">
+            <dependent-object>Module_1313254053167</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

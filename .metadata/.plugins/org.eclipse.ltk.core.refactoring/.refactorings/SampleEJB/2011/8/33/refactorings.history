@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring description="Bean 클래스 class SessionBean [in [Working copy] SessionBean.java [in com.ibm.pumpsoftejb [in ejbModule [in SampleEJB]]]]&#x0A;  javax.sql.DataSource ds&#x0A;  SessionBean()&#x0A;  String getString()&#x0A;  String readDB()&#x0A;  ArrayList&lt;String&gt; getUserList()의 메소드를 비즈니스 인터페이스 interface SessionBeanLocal [in SessionBeanLocal.java [in com.ibm.pumpsoftejb [in ejbModule [in SampleEJB]]]]&#x0A;  String getString()&#x0A;  String readDB()(으)로 승격합니다." flags="6" id="com.ibm.jee.ejb.refactoring.core.PromoteMethods" stamp="1313038965991"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring description="Bean 클래스 class LoginBean [in [Working copy] LoginBean.java [in com.ibm.pumpsoftejb [in ejbModule [in LoginEJB]]]]&#x0A;  javax.sql.DataSource ds&#x0A;  LoginBean()&#x0A;  int login(String, String)&#x0A;  String get(String, String, String)&#x0A;  int insertUser(String, String, String)&#x0A;  int updateUserPoint(int, String)&#x0A;  int updateUserGrade(int, String)&#x0A;  int getPoint(int)의 메소드를 비즈니스 인터페이스 interface LoginBeanLocal [in LoginBeanLocal.java [in com.ibm.pumpsoftejb [in ejbModule [in LoginEJB]]]]&#x0A;  int login(String, String)&#x0A;  int insertUser(String, String, String)&#x0A;  String get(String, String, String)&#x0A;  int updateUserPoint(int, String)&#x0A;  int updateUserGrade(int, String)(으)로 승격합니다." flags="6" id="com.ibm.jee.ejb.refactoring.core.PromoteMethods" stamp="1314906781374"/>
+</session>

@@ -1,0 +1,36 @@
+1313922233824	Bean 클래스 class LoginBean [in [Working copy] LoginBean.java [in com.ibm.pumpsoftejb [in ejbModule [in LoginEJB]]]]
+  javax.sql.DataSource ds
+  LoginBean()
+  int login(String, String)
+  int InserUser(String, String, String)의 메소드를 비즈니스 인터페이스 interface LoginBeanLocal [in LoginBeanLocal.java [in com.ibm.pumpsoftejb [in ejbModule [in LoginEJB]]]]
+  int login(String, String)(으)로 승격합니다.
+1313924760291	Bean 클래스 class LoginBean [in [Working copy] LoginBean.java [in com.ibm.pumpsoftejb [in ejbModule [in LoginEJB]]]]
+  javax.sql.DataSource ds
+  LoginBean()
+  int login(String, String)
+  String get(String, String, String)
+  int InserUser(String, String, String)의 메소드를 비즈니스 인터페이스 interface LoginBeanLocal [in [Working copy] LoginBeanLocal.java [in com.ibm.pumpsoftejb [in ejbModule [in LoginEJB]]]]
+  int login(String, String)
+  int InserUser(String, String, String)(으)로 승격합니다.
+1314043858368	Bean 클래스 class LoginBean [in [Working copy] LoginBean.java [in com.ibm.pumpsoftejb [in ejbModule [in LoginEJB]]]]
+  javax.sql.DataSource ds
+  LoginBean()
+  int login(String, String)
+  String get(String, String, String)
+  int insertUser(String, String, String)
+  int updateUserPoint(int, String)의 메소드를 비즈니스 인터페이스 interface LoginBeanLocal [in LoginBeanLocal.java [in com.ibm.pumpsoftejb [in ejbModule [in LoginEJB]]]]
+  int login(String, String)
+  int insertUser(String, String, String)
+  String get(String, String, String)(으)로 승격합니다.
+1314044484999	Bean 클래스 class LoginBean [in [Working copy] LoginBean.java [in com.ibm.pumpsoftejb [in ejbModule [in LoginEJB]]]]
+  javax.sql.DataSource ds
+  LoginBean()
+  int login(String, String)
+  String get(String, String, String)
+  int insertUser(String, String, String)
+  int updateUserPoint(int, String)
+  int updateUserGrade(int, String)의 메소드를 비즈니스 인터페이스 interface LoginBeanLocal [in LoginBeanLocal.java [in com.ibm.pumpsoftejb [in ejbModule [in LoginEJB]]]]
+  int login(String, String)
+  int insertUser(String, String, String)
+  String get(String, String, String)
+  int updateUserPoint(int, String)(으)로 승격합니다.

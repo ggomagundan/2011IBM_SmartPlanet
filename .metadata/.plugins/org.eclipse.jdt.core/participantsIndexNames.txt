@@ -1,0 +1,9 @@
+INDEX VERSION 1.126
+D:\IBMProject\WAS\Project\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2556134687.index
+\ImageWeb
+D:\IBMProject\WAS\Project\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\80493082.index
+\SampleWeb
+D:\IBMProject\WAS\Project\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1391171165.index
+\SampleWeb
+D:\IBMProject\WAS\Project\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\239909319.index
+\ImageWeb1

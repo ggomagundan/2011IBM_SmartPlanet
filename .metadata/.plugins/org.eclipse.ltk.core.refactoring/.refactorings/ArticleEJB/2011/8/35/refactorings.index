@@ -1,0 +1,75 @@
+1313927298659	Bean 클래스 class ArticleBean [in [Working copy] ArticleBean.java [in com.ibm.pumpsoftejb [in ejbModule [in ArticleEJB]]]]
+  javax.sql.DataSource ds
+  ArticleBean()
+  int countArticles()
+  ArrayList<String> getArticleList(int, int)
+  String getArticleContent(int)
+  ArrayList<String> getArticlePhoto(int)
+  ArrayList<String> getArticleComments(int)
+  int insertArticle(String, String, String)
+  int insertComment(String, String, String)의 메소드를 비즈니스 인터페이스 interface ArticleBeanLocal [in ArticleBeanLocal.java [in com.ibm.pumpsoftejb [in ejbModule [in ArticleEJB]]]]
+  int countArticles()
+  ArrayList<String> getArticleList(int, int)
+  String getArticleContent(int)
+  ArrayList<String> getArticlePhoto(int)
+  ArrayList<String> getArticleComments(int)(으)로 승격합니다.
+1313928396257	Bean 클래스 class ArticleBean [in [Working copy] ArticleBean.java [in com.ibm.pumpsoftejb [in ejbModule [in ArticleEJB]]]]
+  javax.sql.DataSource ds
+  ArticleBean()
+  int countArticles()
+  ArrayList<String> getArticleList(int, int)
+  String getArticleContent(int)
+  ArrayList<String> getArticlePhoto(int)
+  ArrayList<String> getArticleComments(int)
+  int insertArticle(String, String, String)
+  int insertComment(String, String, String)
+  int insertPhoto(String, String)의 메소드를 비즈니스 인터페이스 interface ArticleBeanLocal [in ArticleBeanLocal.java [in com.ibm.pumpsoftejb [in ejbModule [in ArticleEJB]]]]
+  int countArticles()
+  ArrayList<String> getArticleList(int, int)
+  String getArticleContent(int)
+  ArrayList<String> getArticlePhoto(int)
+  ArrayList<String> getArticleComments(int)
+  int insertArticle(String, String, String)
+  int insertComment(String, String, String)(으)로 승격합니다.
+1314045382383	Bean 클래스 class ArticleBean [in [Working copy] ArticleBean.java [in com.ibm.pumpsoftejb [in ejbModule [in ArticleEJB]]]]
+  javax.sql.DataSource ds
+  ArticleBean()
+  int countArticles()
+  ArrayList<String> getArticleList(int, int)
+  String getArticleContent(int)
+  ArrayList<String> getArticlePhoto(int)
+  ArrayList<String> getArticleComments(int)
+  int insertArticle(String, String, String)
+  int insertComment(String, String, String)
+  int insertPhoto(String, String)
+  int updateArticle(String, String, int)의 메소드를 비즈니스 인터페이스 interface ArticleBeanLocal [in ArticleBeanLocal.java [in com.ibm.pumpsoftejb [in ejbModule [in ArticleEJB]]]]
+  int countArticles()
+  ArrayList<String> getArticleList(int, int)
+  String getArticleContent(int)
+  ArrayList<String> getArticlePhoto(int)
+  ArrayList<String> getArticleComments(int)
+  int insertArticle(String, String, String)
+  int insertComment(String, String, String)
+  int insertPhoto(String, String)(으)로 승격합니다.
+1314045527881	Bean 클래스 class ArticleBean [in [Working copy] ArticleBean.java [in com.ibm.pumpsoftejb [in ejbModule [in ArticleEJB]]]]
+  javax.sql.DataSource ds
+  ArticleBean()
+  int countArticles()
+  ArrayList<String> getArticleList(int, int)
+  String getArticleContent(int)
+  ArrayList<String> getArticlePhoto(int)
+  ArrayList<String> getArticleComments(int)
+  int insertArticle(String, String, String)
+  int insertComment(String, String, String)
+  int insertPhoto(String, String)
+  int updateArticle(String, String, int)
+  int updateComment(String, int)의 메소드를 비즈니스 인터페이스 interface ArticleBeanLocal [in ArticleBeanLocal.java [in com.ibm.pumpsoftejb [in ejbModule [in ArticleEJB]]]]
+  int countArticles()
+  ArrayList<String> getArticleList(int, int)
+  String getArticleContent(int)
+  ArrayList<String> getArticlePhoto(int)
+  ArrayList<String> getArticleComments(int)
+  int insertArticle(String, String, String)
+  int insertComment(String, String, String)
+  int insertPhoto(String, String)
+  int updateArticle(String, String, int)(으)로 승격합니다.

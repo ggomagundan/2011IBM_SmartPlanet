@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="&apos;ImageWeb&apos; 자원 삭제" deleteContents="true" description="&apos;ImageWeb&apos; 자원 삭제" element1="/ImageWeb" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1314778355152"/>
+</session>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+	<display-name>ArticleWeb</display-name>
+	
+	<servlet>
+        <servlet-name>ArticleComments</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.ArticleComments</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>ArticleComments</servlet-name>
+		<url-pattern>
+			/ArticleComments
+		</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+        <servlet-name>ArticleContent</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.ArticleContent</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>ArticleContent</servlet-name>
+		<url-pattern>
+			/ArticleContent
+		</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>ArticleCount</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.ArticleCount</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>ArticleCount</servlet-name>
+		<url-pattern>
+			/ArticleCount
+		</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+        <servlet-name>ArticleList</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.ArticleList</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>ArticleList</servlet-name>
+		<url-pattern>
+			/ArticleList
+		</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+        <servlet-name>ArticlePhotos</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.ArticlePhotos</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>ArticlePhotos</servlet-name>
+		<url-pattern>
+			/ArticlePhotos
+		</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+        <servlet-name>InsertArticle</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.InsertArticle</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>InsertArticle</servlet-name>
+		<url-pattern>
+			/InsertArticle
+		</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>InsertComment</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.InsertComment</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>InsertComment</servlet-name>
+		<url-pattern>
+			/InsertComment
+		</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+        <servlet-name>InsertPhoto</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.InsertPhoto</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>InsertPhoto</servlet-name>
+		<url-pattern>
+			/InsertPhoto
+		</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+        <servlet-name>UpdateArticle</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.UpdateArticle</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>UpdateArticle</servlet-name>
+		<url-pattern>
+			/UpdateArticle
+		</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+        <servlet-name>UpdateComment</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.UpdateComment</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>UpdateComment</servlet-name>
+		<url-pattern>
+			/UpdateComment
+		</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>UpdateArticleRC</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.UpdateArticleRC</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>UpdateArticleRC</servlet-name>
+		<url-pattern>
+			/UpdateArticleRC
+		</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>UpdateArticleRC</servlet-name>
+        <servlet-class>com.ibm.pumpsoft.UpdateArticleRC</servlet-class>
+    </servlet>
+		
+	<servlet-mapping>
+		<servlet-name>UpdateArticleRC</servlet-name>
+		<url-pattern>
+			/UpdateArticleRC
+		</url-pattern>
+	</servlet-mapping>
+	
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

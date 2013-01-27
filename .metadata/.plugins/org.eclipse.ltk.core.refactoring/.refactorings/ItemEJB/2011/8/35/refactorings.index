@@ -1,0 +1,68 @@
+1313931683282	Bean 클래스 class ItemBean [in [Working copy] ItemBean.java [in com.ibm.pumpsoft [in ejbModule [in ItemEJB]]]]
+  javax.sql.DataSource ds
+  ItemBean()
+  String getLatelyItem()
+  int countItem()
+  ArrayList<String> getItemList(int, int)
+  int countUserItem(String)
+  ArrayList<String> getUserInventory(String, int, int)
+  int insertItem(String, String, int, String, int)의 메소드를 비즈니스 인터페이스 interface ItemBeanLocal [in ItemBeanLocal.java [in com.ibm.pumpsoft [in ejbModule [in ItemEJB]]]]
+  String getLatelyItem()
+  int countItem()
+  ArrayList<String> getItemList(int, int)
+  int countUserItem(String)
+  ArrayList<String> getUserInventory(String, int, int)(으)로 승격합니다.
+1314043331809	Bean 클래스 class ItemBean [in [Working copy] ItemBean.java [in com.ibm.pumpsoft [in ejbModule [in ItemEJB]]]]
+  javax.sql.DataSource ds
+  ItemBean()
+  String getLatelyItem()
+  int countItem()
+  ArrayList<String> getItemList(int, int)
+  int countUserItem(String)
+  ArrayList<String> getUserInventory(String, int, int)
+  int insertItem(String, String, int, String, int)
+  int insertItemUser(String, int)의 메소드를 비즈니스 인터페이스 interface ItemBeanLocal [in ItemBeanLocal.java [in com.ibm.pumpsoft [in ejbModule [in ItemEJB]]]]
+  String getLatelyItem()
+  int countItem()
+  ArrayList<String> getItemList(int, int)
+  int countUserItem(String)
+  ArrayList<String> getUserInventory(String, int, int)
+  int insertItem(String, String, int, String, int)(으)로 승격합니다.
+1314047586586	Bean 클래스 class ItemBean [in [Working copy] ItemBean.java [in com.ibm.pumpsoft [in ejbModule [in ItemEJB]]]]
+  javax.sql.DataSource ds
+  ItemBean()
+  String getLatelyItem()
+  int countItem()
+  ArrayList<String> getItemList(int, int)
+  int countUserItem(String)
+  ArrayList<String> getUserInventory(String, int, int)
+  int insertItem(String, String, int, String, int)
+  int insertItemUser(String, int)
+  int buyItem(int, int, String)의 메소드를 비즈니스 인터페이스 interface ItemBeanLocal [in ItemBeanLocal.java [in com.ibm.pumpsoft [in ejbModule [in ItemEJB]]]]
+  String getLatelyItem()
+  int countItem()
+  ArrayList<String> getItemList(int, int)
+  int countUserItem(String)
+  ArrayList<String> getUserInventory(String, int, int)
+  int insertItem(String, String, int, String, int)
+  int insertItemUser(String, int)(으)로 승격합니다.
+1314048174218	Bean 클래스 class ItemBean [in [Working copy] ItemBean.java [in com.ibm.pumpsoft [in ejbModule [in ItemEJB]]]]
+  javax.sql.DataSource ds
+  ItemBean()
+  String getLatelyItem()
+  int countItem()
+  ArrayList<String> getItemList(int, int)
+  int countUserItem(String)
+  ArrayList<String> getUserInventory(String, int, int)
+  int insertItem(String, String, int, String, int)
+  int insertItemUser(String, int)
+  int buyItem(int, int, String)
+  int useItem(int, String, int, int, int)의 메소드를 비즈니스 인터페이스 interface ItemBeanLocal [in ItemBeanLocal.java [in com.ibm.pumpsoft [in ejbModule [in ItemEJB]]]]
+  String getLatelyItem()
+  int countItem()
+  ArrayList<String> getItemList(int, int)
+  int countUserItem(String)
+  ArrayList<String> getUserInventory(String, int, int)
+  int insertItem(String, String, int, String, int)
+  int insertItemUser(String, int)
+  int buyItem(int, int, String)(으)로 승격합니다.

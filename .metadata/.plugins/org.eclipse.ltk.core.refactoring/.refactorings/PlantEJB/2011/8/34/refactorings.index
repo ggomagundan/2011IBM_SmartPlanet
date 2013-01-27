@@ -1,0 +1,14 @@
+1313560221370	Bean 클래스 class PlantBean [in [Working copy] PlantBean.java [in com.ibm.pumpsoft [in ejbModule [in PlantEJB]]]]
+  javax.sql.DataSource ds
+  PlantBean()
+  int countPlant()
+  int getPlantList(int, int)의 메소드를 비즈니스 인터페이스 interface PlantBeanLocal [in PlantBeanLocal.java [in com.ibm.pumpsoft [in ejbModule [in PlantEJB]]]](으)로 승격합니다.
+1313564071253	Bean 클래스 class PlantBean [in [Working copy] PlantBean.java [in com.ibm.pumpsoft [in ejbModule [in PlantEJB]]]]
+  javax.sql.DataSource ds
+  PlantBean()
+  int countPlant()
+  ArrayList<String> getPlantList(int, int)
+  int countUsePlant(String)
+  ArrayList<String> getUserPlantList(String)의 메소드를 비즈니스 인터페이스 interface PlantBeanLocal [in [Working copy] PlantBeanLocal.java [in com.ibm.pumpsoft [in ejbModule [in PlantEJB]]]]
+  int countPlant()
+  ArrayList<String> getPlantList(int, int)(으)로 승격합니다.

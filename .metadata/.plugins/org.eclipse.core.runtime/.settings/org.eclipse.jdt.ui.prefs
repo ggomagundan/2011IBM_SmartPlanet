@@ -1,0 +1,21 @@
+#Wed Aug 31 02:33:46 KST 2011
+content_assist_proposals_foreground=0,0,0
+spelling_locale_initialized=true
+org.eclipse.jdt.ui.text.templates_migrated=true
+useAnnotationsPrefPage=true
+eclipse.preferences.version=1
+org.eclipse.jface.textfont=1|Courier New|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Courier New;
+tabWidthPropagated=true
+org.eclipse.jdt.ui.editor.tab.width=
+fontPropagated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8"?><templates/>
+org.eclipse.jdt.ui.javadoclocations.migrated=true
+proposalOrderMigrated=true
+content_assist_proposals_background=255,255,255
+org.eclipse.jdt.ui.formatterprofiles.version=12
+org.eclipse.jdt.internal.ui.navigator.layout=2
+content_assist_number_of_computers=16
+useQuickDiffPrefPage=true
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8"?><templates/>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8"?><history maxLHS\="100" maxRHS\="10"><lhs name\="com.ibm.json.java.JSONArtifact"><rhs name\="com.ibm.json.java.JSONArray"/><rhs name\="com.ibm.json.java.JSONObject"/></lhs><lhs name\="java.util.HashMap"><rhs name\="com.ibm.json.java.JSONObject"/></lhs><lhs name\="java.util.Map"><rhs name\="net.sf.json.JSONObject"/><rhs name\="com.ibm.json.java.JSONObject"/></lhs><lhs name\="java.lang.Cloneable"><rhs name\="java.util.ArrayList"/><rhs name\="com.ibm.json.java.JSONArray"/><rhs name\="com.ibm.json.java.JSONObject"/></lhs><lhs name\="java.util.AbstractMap"><rhs name\="com.ibm.json.java.JSONObject"/></lhs><lhs name\="com.ibm.json.java.JSONObject"><rhs name\="com.ibm.json.java.JSONObject"/></lhs><lhs name\="net.sf.json.JSON"><rhs name\="net.sf.json.JSONArray"/><rhs name\="net.sf.json.JSONObject"/></lhs><lhs name\="net.sf.json.AbstractJSON"><rhs name\="net.sf.json.JSONArray"/><rhs name\="net.sf.json.JSONObject"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/><rhs name\="net.sf.json.JSONArray"/><rhs name\="com.ibm.json.java.JSONArray"/></lhs><lhs name\="java.util.RandomAccess"><rhs name\="java.util.ArrayList"/><rhs name\="com.ibm.json.java.JSONArray"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/><rhs name\="net.sf.json.JSONArray"/><rhs name\="com.ibm.json.java.JSONArray"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/><rhs name\="net.sf.json.JSONArray"/><rhs name\="com.ibm.json.java.JSONArray"/></lhs><lhs name\="java.util.AbstractList"><rhs name\="java.util.ArrayList"/><rhs name\="com.ibm.json.java.JSONArray"/></lhs><lhs name\="java.util.AbstractCollection"><rhs name\="java.util.ArrayList"/><rhs name\="com.ibm.json.java.JSONArray"/></lhs><lhs name\="java.util.ArrayList"><rhs name\="java.util.ArrayList"/><rhs name\="com.ibm.json.java.JSONArray"/></lhs><lhs name\="com.ibm.json.java.JSONArray"><rhs name\="com.ibm.json.java.JSONArray"/></lhs></history>
+org.eclipse.jdt.ui.text.code_templates_migrated=true

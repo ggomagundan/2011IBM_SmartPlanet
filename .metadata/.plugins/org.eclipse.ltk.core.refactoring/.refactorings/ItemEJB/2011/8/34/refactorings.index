@@ -1,0 +1,17 @@
+1313561905904	Bean 클래스 class ItemBean [in [Working copy] ItemBean.java [in com.ibm.pumpsoft [in ejbModule [in ItemEJB]]]]
+  javax.sql.DataSource ds
+  ItemBean()
+  String getLatelyItem()
+  int countItem()
+  ArrayList<String> getItemList(int, int)의 메소드를 비즈니스 인터페이스 interface ItemBeanLocal [in ItemBeanLocal.java [in com.ibm.pumpsoft [in ejbModule [in ItemEJB]]]](으)로 승격합니다.
+1313562201310	Bean 클래스 class ItemBean [in [Working copy] ItemBean.java [in com.ibm.pumpsoft [in ejbModule [in ItemEJB]]]]
+  javax.sql.DataSource ds
+  ItemBean()
+  String getLatelyItem()
+  int countItem()
+  ArrayList<String> getItemList(int, int)
+  int countUserItem(String)
+  ArrayList<String> getUserInventory(String, int, int)의 메소드를 비즈니스 인터페이스 interface ItemBeanLocal [in ItemBeanLocal.java [in com.ibm.pumpsoft [in ejbModule [in ItemEJB]]]]
+  String getLatelyItem()
+  int countItem()
+  ArrayList<String> getItemList(int, int)(으)로 승격합니다.
